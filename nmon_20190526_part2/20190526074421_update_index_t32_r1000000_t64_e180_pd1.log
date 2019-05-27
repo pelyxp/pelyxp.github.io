@@ -1,0 +1,30 @@
+sysbench 1.0.17 (using system LuaJIT 2.0.4)
+
+Running the test with following options:
+Number of threads: 64
+Report intermediate results every 10 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 10s ] thds: 64 tps: 5282.57 qps: 5282.57 (r/w/o: 0.00/4189.33/1093.25) lat (ms,95%): 30.26 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 64 tps: 4989.22 qps: 4989.22 (r/w/o: 0.00/3970.21/1019.00) lat (ms,95%): 32.53 err/s: 0.00 reconn/s: 0.00
+[ 30s ] thds: 64 tps: 4891.00 qps: 4891.00 (r/w/o: 0.00/3878.00/1013.00) lat (ms,95%): 34.33 err/s: 0.00 reconn/s: 0.00
+[ 40s ] thds: 64 tps: 4839.91 qps: 4839.91 (r/w/o: 0.00/3850.30/989.60) lat (ms,95%): 36.24 err/s: 0.00 reconn/s: 0.00
+[ 50s ] thds: 64 tps: 4860.31 qps: 4860.31 (r/w/o: 0.00/3864.80/995.50) lat (ms,95%): 36.89 err/s: 0.00 reconn/s: 0.00
+[ 60s ] thds: 64 tps: 4772.50 qps: 4772.50 (r/w/o: 0.00/3775.90/996.60) lat (ms,95%): 37.56 err/s: 0.00 reconn/s: 0.00
+[ 70s ] thds: 64 tps: 4996.18 qps: 4996.18 (r/w/o: 0.00/3968.99/1027.20) lat (ms,95%): 33.72 err/s: 0.00 reconn/s: 0.00
+[ 80s ] thds: 64 tps: 4962.71 qps: 4962.71 (r/w/o: 0.00/3946.41/1016.30) lat (ms,95%): 33.72 err/s: 0.00 reconn/s: 0.00
+[ 90s ] thds: 64 tps: 5151.10 qps: 5151.10 (r/w/o: 0.00/4083.70/1067.40) lat (ms,95%): 30.81 err/s: 0.00 reconn/s: 0.00
+[ 100s ] thds: 64 tps: 5309.08 qps: 5309.08 (r/w/o: 0.00/4212.19/1096.90) lat (ms,95%): 30.26 err/s: 0.00 reconn/s: 0.00
+[ 110s ] thds: 64 tps: 5325.92 qps: 5325.92 (r/w/o: 0.00/4230.61/1095.30) lat (ms,95%): 30.26 err/s: 0.00 reconn/s: 0.00
+[ 120s ] thds: 64 tps: 5117.50 qps: 5117.50 (r/w/o: 0.00/4057.70/1059.80) lat (ms,95%): 32.53 err/s: 0.00 reconn/s: 0.00
+[ 130s ] thds: 64 tps: 4985.20 qps: 4985.20 (r/w/o: 0.00/3929.80/1055.40) lat (ms,95%): 36.89 err/s: 0.00 reconn/s: 0.00
+[ 140s ] thds: 64 tps: 2011.20 qps: 2011.20 (r/w/o: 0.00/1588.10/423.10) lat (ms,95%): 29.19 err/s: 0.00 reconn/s: 0.00
+[ 150s ] thds: 64 tps: 108.40 qps: 108.40 (r/w/o: 0.00/87.20/21.20) lat (ms,95%): 10343.39 err/s: 0.00 reconn/s: 0.00
+FATAL: mysql_stmt_execute() returned error 9004 (Resolve lock timeout) for query 'UPDATE sbtest26 SET k=k+1 WHERE id=?'
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 9004, state = 'HY000': Resolve lock timeout
+Error in my_thread_global_end(): 1 threads didn't exit

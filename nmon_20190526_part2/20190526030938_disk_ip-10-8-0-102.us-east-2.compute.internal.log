@@ -1,0 +1,19 @@
+sysbench 1.0.17 (using system LuaJIT 2.0.4)
+
+Running the test with following options:
+Number of threads: 16
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 240MiB each
+30GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+FATAL: Size of file 'test_file.1' is 21.844MiB, but at least 240MiB is expected.
+WARNING: Did you run 'prepare' with different --file-total-size or --file-num values?

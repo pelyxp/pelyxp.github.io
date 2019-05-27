@@ -1,0 +1,21 @@
+sysbench 1.0.17 (using system LuaJIT 2.0.4)
+
+Running the test with following options:
+Number of threads: 256
+Report intermediate results every 10 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: mysql_stmt_execute() returned error 9004 (Resolve lock timeout) for query 'UPDATE sbtest20 SET k=k+1 WHERE id=?'
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 9004, state = 'HY000': Resolve lock timeout
+FATAL: mysql_stmt_execute() returned error 9004 (Resolve lock timeout) for query 'UPDATE sbtest17 SET k=k+1 WHERE id=?'
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 9004, state = 'HY000': Resolve lock timeout
+FATAL: mysql_stmt_execute() returned error 9004 (Resolve lock timeout) for query 'UPDATE sbtest7 SET k=k+1 WHERE id=?'
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 9004, state = 'HY000': Resolve lock timeout
+FATAL: mysql_stmt_execute() returned error 9005 (Region is unavailable) for query 'UPDATE sbtest15 SET k=k+1 WHERE id=?'
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 9005, state = 'HY000': Region is unavailable
+Error in my_thread_global_end(): 4 threads didn't exit

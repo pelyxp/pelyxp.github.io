@@ -1,0 +1,1802 @@
+<html>
+	<head>
+		<title>nmonChart</title>
+<script>
+function config() {
+    var myWindow = window.open("", "MsgWindow", "width=1024, height=800");
+    myWindow.document.write("<h2>Configuration data for 20190526070836_point_select_t32_r1000000_t16_e180_tikv3.nmon <br>Use PageDown or Scroll bar (if available)</h2><br>\
+<b>progname</b> = 20190526070836_point_select_t32_r1000000_t16_e180_tikv3.nmon<br>\
+<b>command</b> = /home/tidb/bin/nmon -F /home/tidb/nmon/20190526070836_point_select_t32_r1000000_t16_e180_tikv3.nmon -T -s 10 -c 18 <br>\
+<b>version</b> = 16h<br>\
+<b>disks_per_line</b> = 150<br>\
+<b>max_disks</b> = 256<br>\
+<b>disks</b> = 4<br>\
+<b>host</b> = tikv3<br>\
+<b>user</b> = tidb<br>\
+<b>OS</b> = Linux<br>\
+<b>runname</b> = tikv3<br>\
+<b>time</b> = 07:08.37<br>\
+<b>date</b> = 26-MAY-2019<br>\
+<b>interval</b> = 10<br>\
+<b>snapshots</b> = 18<br>\
+<b>cpus</b> = 16<br>\
+<b>x86</b> = VendorId<br>\
+<b>x86</b> = ModelName<br>\
+<b>x86</b> = MHz<br>\
+<b>x86</b> = bogomips<br>\
+<b>x86</b> = ProcessorChips<br>\
+<b>x86</b> = Cores<br>\
+<b>x86</b> = hyperthreads<br>\
+<b>x86</b> = VirtualCPUs<br>\
+<b>proc_stat_variables</b> = 8<br>\
+<b>boottime</b> = 03:00 AM 26-May-2019<br>\
+<b>steal</b> = 1<br>\
+000 <b>/etc/release</b> <br>\
+001 <b>/etc/release</b> CentOS Linux release 7.6.1810 (Core) <br>\
+002 <b>/etc/release</b> NAME=QCentOS LinuxQ<br>\
+003 <b>/etc/release</b> VERSION=Q7 (Core)Q<br>\
+004 <b>/etc/release</b> ID=QcentosQ<br>\
+005 <b>/etc/release</b> ID_LIKE=Qrhel fedoraQ<br>\
+006 <b>/etc/release</b> VERSION_ID=Q7Q<br>\
+007 <b>/etc/release</b> PRETTY_NAME=QCentOS Linux 7 (Core)Q<br>\
+008 <b>/etc/release</b> ANSI_COLOR=Q0;31Q<br>\
+009 <b>/etc/release</b> CPE_NAME=Qcpe:/o:centos:centos:7Q<br>\
+010 <b>/etc/release</b> HOME_URL=Qhttps://www.centos.org/Q<br>\
+011 <b>/etc/release</b> BUG_REPORT_URL=Qhttps://bugs.centos.org/Q<br>\
+012 <b>/etc/release</b> <br>\
+013 <b>/etc/release</b> CENTOS_MANTISBT_PROJECT=QCentOS-7Q<br>\
+014 <b>/etc/release</b> CENTOS_MANTISBT_PROJECT_VERSION=Q7Q<br>\
+015 <b>/etc/release</b> REDHAT_SUPPORT_PRODUCT=QcentosQ<br>\
+016 <b>/etc/release</b> REDHAT_SUPPORT_PRODUCT_VERSION=Q7Q<br>\
+017 <b>/etc/release</b> <br>\
+018 <b>/etc/release</b> CentOS Linux release 7.6.1810 (Core) <br>\
+019 <b>/etc/release</b> CentOS Linux release 7.6.1810 (Core) <br>\
+020 <b>lsb_release</b> <br>\
+021 <b>fdisk-l</b> <br>\
+022 <b>lsblk</b> <br>\
+023 <b>lsblk</b> NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT<br>\
+024 <b>lsblk</b> xvda    202:0    0    8G  0 disk <br>\
+025 <b>lsblk</b> └─xvda1 202:1    0    8G  0 part /<br>\
+026 <b>lsblk</b> nvme0n1 259:0    0  1.7T  0 disk /data1<br>\
+027 <b>lsblk</b> nvme1n1 259:1    0  1.7T  0 disk /data2<br>\
+028 <b>lscpu</b> <br>\
+029 <b>lscpu</b> Architecture:          x86_64<br>\
+030 <b>lscpu</b> CPU op-mode(s):        32-bit<br>\
+031 <b>lscpu</b> Byte Order:            Little Endian<br>\
+032 <b>lscpu</b> CPU(s):                16<br>\
+033 <b>lscpu</b> On-line CPU(s) list:   0-15<br>\
+034 <b>lscpu</b> Thread(s) per core:    2<br>\
+035 <b>lscpu</b> Core(s) per socket:    8<br>\
+036 <b>lscpu</b> Socket(s):             1<br>\
+037 <b>lscpu</b> NUMA node(s):          1<br>\
+038 <b>lscpu</b> Vendor ID:             GenuineIntel<br>\
+039 <b>lscpu</b> CPU family:            6<br>\
+040 <b>lscpu</b> Model:                 79<br>\
+041 <b>lscpu</b> Model name:            Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+042 <b>lscpu</b> Stepping:              1<br>\
+043 <b>lscpu</b> CPU MHz:               2699.102<br>\
+044 <b>lscpu</b> CPU max MHz:           3000.0000<br>\
+045 <b>lscpu</b> CPU min MHz:           1200.0000<br>\
+046 <b>lscpu</b> BogoMIPS:              4600.16<br>\
+047 <b>lscpu</b> Hypervisor vendor:     Xen<br>\
+048 <b>lscpu</b> Virtualization type:   full<br>\
+049 <b>lscpu</b> L1d cache:             32K<br>\
+050 <b>lscpu</b> L1i cache:             32K<br>\
+051 <b>lscpu</b> L2 cache:              256K<br>\
+052 <b>lscpu</b> L3 cache:              46080K<br>\
+053 <b>lscpu</b> NUMA node0 CPU(s):     0-15<br>\
+054 <b>lscpu</b> Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+055 <b>lshw</b> <br>\
+056 <b>/proc/cpuinfo</b> <br>\
+057 <b>/proc/cpuinfo</b> processor	: 0<br>\
+058 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+059 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+060 <b>/proc/cpuinfo</b> model		: 79<br>\
+061 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+062 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+063 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+064 <b>/proc/cpuinfo</b> cpu MHz		: 2699.804<br>\
+065 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+066 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+067 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+068 <b>/proc/cpuinfo</b> core id		: 0<br>\
+069 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+070 <b>/proc/cpuinfo</b> apicid		: 0<br>\
+071 <b>/proc/cpuinfo</b> initial apicid	: 0<br>\
+072 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+073 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+074 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+075 <b>/proc/cpuinfo</b> wp		: yes<br>\
+076 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+077 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+078 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+079 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+080 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+081 <b>/proc/cpuinfo</b> power management:<br>\
+082 <b>/proc/cpuinfo</b> <br>\
+083 <b>/proc/cpuinfo</b> processor	: 1<br>\
+084 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+085 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+086 <b>/proc/cpuinfo</b> model		: 79<br>\
+087 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+088 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+089 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+090 <b>/proc/cpuinfo</b> cpu MHz		: 2699.664<br>\
+091 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+092 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+093 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+094 <b>/proc/cpuinfo</b> core id		: 1<br>\
+095 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+096 <b>/proc/cpuinfo</b> apicid		: 2<br>\
+097 <b>/proc/cpuinfo</b> initial apicid	: 2<br>\
+098 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+099 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+100 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+101 <b>/proc/cpuinfo</b> wp		: yes<br>\
+102 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+103 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+104 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+105 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+106 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+107 <b>/proc/cpuinfo</b> power management:<br>\
+108 <b>/proc/cpuinfo</b> <br>\
+109 <b>/proc/cpuinfo</b> processor	: 2<br>\
+110 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+111 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+112 <b>/proc/cpuinfo</b> model		: 79<br>\
+113 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+114 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+115 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+116 <b>/proc/cpuinfo</b> cpu MHz		: 2700.085<br>\
+117 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+118 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+119 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+120 <b>/proc/cpuinfo</b> core id		: 2<br>\
+121 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+122 <b>/proc/cpuinfo</b> apicid		: 4<br>\
+123 <b>/proc/cpuinfo</b> initial apicid	: 4<br>\
+124 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+125 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+126 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+127 <b>/proc/cpuinfo</b> wp		: yes<br>\
+128 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+129 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+130 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+131 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+132 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+133 <b>/proc/cpuinfo</b> power management:<br>\
+134 <b>/proc/cpuinfo</b> <br>\
+135 <b>/proc/cpuinfo</b> processor	: 3<br>\
+136 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+137 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+138 <b>/proc/cpuinfo</b> model		: 79<br>\
+139 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+140 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+141 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+142 <b>/proc/cpuinfo</b> cpu MHz		: 2699.945<br>\
+143 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+144 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+145 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+146 <b>/proc/cpuinfo</b> core id		: 3<br>\
+147 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+148 <b>/proc/cpuinfo</b> apicid		: 6<br>\
+149 <b>/proc/cpuinfo</b> initial apicid	: 6<br>\
+150 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+151 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+152 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+153 <b>/proc/cpuinfo</b> wp		: yes<br>\
+154 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+155 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+156 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+157 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+158 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+159 <b>/proc/cpuinfo</b> power management:<br>\
+160 <b>/proc/cpuinfo</b> <br>\
+161 <b>/proc/cpuinfo</b> processor	: 4<br>\
+162 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+163 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+164 <b>/proc/cpuinfo</b> model		: 79<br>\
+165 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+166 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+167 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+168 <b>/proc/cpuinfo</b> cpu MHz		: 2699.804<br>\
+169 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+170 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+171 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+172 <b>/proc/cpuinfo</b> core id		: 4<br>\
+173 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+174 <b>/proc/cpuinfo</b> apicid		: 8<br>\
+175 <b>/proc/cpuinfo</b> initial apicid	: 8<br>\
+176 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+177 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+178 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+179 <b>/proc/cpuinfo</b> wp		: yes<br>\
+180 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+181 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+182 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+183 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+184 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+185 <b>/proc/cpuinfo</b> power management:<br>\
+186 <b>/proc/cpuinfo</b> <br>\
+187 <b>/proc/cpuinfo</b> processor	: 5<br>\
+188 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+189 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+190 <b>/proc/cpuinfo</b> model		: 79<br>\
+191 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+192 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+193 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+194 <b>/proc/cpuinfo</b> cpu MHz		: 2698.822<br>\
+195 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+196 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+197 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+198 <b>/proc/cpuinfo</b> core id		: 5<br>\
+199 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+200 <b>/proc/cpuinfo</b> apicid		: 10<br>\
+201 <b>/proc/cpuinfo</b> initial apicid	: 10<br>\
+202 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+203 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+204 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+205 <b>/proc/cpuinfo</b> wp		: yes<br>\
+206 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+207 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+208 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+209 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+210 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+211 <b>/proc/cpuinfo</b> power management:<br>\
+212 <b>/proc/cpuinfo</b> <br>\
+213 <b>/proc/cpuinfo</b> processor	: 6<br>\
+214 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+215 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+216 <b>/proc/cpuinfo</b> model		: 79<br>\
+217 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+218 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+219 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+220 <b>/proc/cpuinfo</b> cpu MHz		: 2700.787<br>\
+221 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+222 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+223 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+224 <b>/proc/cpuinfo</b> core id		: 6<br>\
+225 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+226 <b>/proc/cpuinfo</b> apicid		: 12<br>\
+227 <b>/proc/cpuinfo</b> initial apicid	: 12<br>\
+228 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+229 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+230 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+231 <b>/proc/cpuinfo</b> wp		: yes<br>\
+232 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+233 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+234 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+235 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+236 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+237 <b>/proc/cpuinfo</b> power management:<br>\
+238 <b>/proc/cpuinfo</b> <br>\
+239 <b>/proc/cpuinfo</b> processor	: 7<br>\
+240 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+241 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+242 <b>/proc/cpuinfo</b> model		: 79<br>\
+243 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+244 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+245 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+246 <b>/proc/cpuinfo</b> cpu MHz		: 2690.960<br>\
+247 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+248 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+249 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+250 <b>/proc/cpuinfo</b> core id		: 7<br>\
+251 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+252 <b>/proc/cpuinfo</b> apicid		: 14<br>\
+253 <b>/proc/cpuinfo</b> initial apicid	: 14<br>\
+254 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+255 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+256 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+257 <b>/proc/cpuinfo</b> wp		: yes<br>\
+258 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+259 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+260 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+261 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+262 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+263 <b>/proc/cpuinfo</b> power management:<br>\
+264 <b>/proc/cpuinfo</b> <br>\
+265 <b>/proc/cpuinfo</b> processor	: 8<br>\
+266 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+267 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+268 <b>/proc/cpuinfo</b> model		: 79<br>\
+269 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+270 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+271 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+272 <b>/proc/cpuinfo</b> cpu MHz		: 2700.646<br>\
+273 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+274 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+275 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+276 <b>/proc/cpuinfo</b> core id		: 0<br>\
+277 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+278 <b>/proc/cpuinfo</b> apicid		: 1<br>\
+279 <b>/proc/cpuinfo</b> initial apicid	: 1<br>\
+280 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+281 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+282 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+283 <b>/proc/cpuinfo</b> wp		: yes<br>\
+284 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+285 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+286 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+287 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+288 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+289 <b>/proc/cpuinfo</b> power management:<br>\
+290 <b>/proc/cpuinfo</b> <br>\
+291 <b>/proc/cpuinfo</b> processor	: 9<br>\
+292 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+293 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+294 <b>/proc/cpuinfo</b> model		: 79<br>\
+295 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+296 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+297 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+298 <b>/proc/cpuinfo</b> cpu MHz		: 2699.523<br>\
+299 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+300 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+301 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+302 <b>/proc/cpuinfo</b> core id		: 1<br>\
+303 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+304 <b>/proc/cpuinfo</b> apicid		: 3<br>\
+305 <b>/proc/cpuinfo</b> initial apicid	: 3<br>\
+306 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+307 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+308 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+309 <b>/proc/cpuinfo</b> wp		: yes<br>\
+310 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+311 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+312 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+313 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+314 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+315 <b>/proc/cpuinfo</b> power management:<br>\
+316 <b>/proc/cpuinfo</b> <br>\
+317 <b>/proc/cpuinfo</b> processor	: 10<br>\
+318 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+319 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+320 <b>/proc/cpuinfo</b> model		: 79<br>\
+321 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+322 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+323 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+324 <b>/proc/cpuinfo</b> cpu MHz		: 2699.804<br>\
+325 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+326 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+327 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+328 <b>/proc/cpuinfo</b> core id		: 2<br>\
+329 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+330 <b>/proc/cpuinfo</b> apicid		: 5<br>\
+331 <b>/proc/cpuinfo</b> initial apicid	: 5<br>\
+332 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+333 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+334 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+335 <b>/proc/cpuinfo</b> wp		: yes<br>\
+336 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+337 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+338 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+339 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+340 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+341 <b>/proc/cpuinfo</b> power management:<br>\
+342 <b>/proc/cpuinfo</b> <br>\
+343 <b>/proc/cpuinfo</b> processor	: 11<br>\
+344 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+345 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+346 <b>/proc/cpuinfo</b> model		: 79<br>\
+347 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+348 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+349 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+350 <b>/proc/cpuinfo</b> cpu MHz		: 2699.664<br>\
+351 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+352 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+353 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+354 <b>/proc/cpuinfo</b> core id		: 3<br>\
+355 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+356 <b>/proc/cpuinfo</b> apicid		: 7<br>\
+357 <b>/proc/cpuinfo</b> initial apicid	: 7<br>\
+358 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+359 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+360 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+361 <b>/proc/cpuinfo</b> wp		: yes<br>\
+362 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+363 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+364 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+365 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+366 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+367 <b>/proc/cpuinfo</b> power management:<br>\
+368 <b>/proc/cpuinfo</b> <br>\
+369 <b>/proc/cpuinfo</b> processor	: 12<br>\
+370 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+371 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+372 <b>/proc/cpuinfo</b> model		: 79<br>\
+373 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+374 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+375 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+376 <b>/proc/cpuinfo</b> cpu MHz		: 2699.243<br>\
+377 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+378 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+379 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+380 <b>/proc/cpuinfo</b> core id		: 4<br>\
+381 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+382 <b>/proc/cpuinfo</b> apicid		: 9<br>\
+383 <b>/proc/cpuinfo</b> initial apicid	: 9<br>\
+384 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+385 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+386 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+387 <b>/proc/cpuinfo</b> wp		: yes<br>\
+388 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+389 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+390 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+391 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+392 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+393 <b>/proc/cpuinfo</b> power management:<br>\
+394 <b>/proc/cpuinfo</b> <br>\
+395 <b>/proc/cpuinfo</b> processor	: 13<br>\
+396 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+397 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+398 <b>/proc/cpuinfo</b> model		: 79<br>\
+399 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+400 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+401 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+402 <b>/proc/cpuinfo</b> cpu MHz		: 2700.085<br>\
+403 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+404 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+405 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+406 <b>/proc/cpuinfo</b> core id		: 5<br>\
+407 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+408 <b>/proc/cpuinfo</b> apicid		: 11<br>\
+409 <b>/proc/cpuinfo</b> initial apicid	: 11<br>\
+410 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+411 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+412 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+413 <b>/proc/cpuinfo</b> wp		: yes<br>\
+414 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+415 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+416 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+417 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+418 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+419 <b>/proc/cpuinfo</b> power management:<br>\
+420 <b>/proc/cpuinfo</b> <br>\
+421 <b>/proc/cpuinfo</b> processor	: 14<br>\
+422 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+423 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+424 <b>/proc/cpuinfo</b> model		: 79<br>\
+425 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+426 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+427 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+428 <b>/proc/cpuinfo</b> cpu MHz		: 2699.945<br>\
+429 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+430 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+431 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+432 <b>/proc/cpuinfo</b> core id		: 6<br>\
+433 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+434 <b>/proc/cpuinfo</b> apicid		: 13<br>\
+435 <b>/proc/cpuinfo</b> initial apicid	: 13<br>\
+436 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+437 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+438 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+439 <b>/proc/cpuinfo</b> wp		: yes<br>\
+440 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+441 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+442 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+443 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+444 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+445 <b>/proc/cpuinfo</b> power management:<br>\
+446 <b>/proc/cpuinfo</b> <br>\
+447 <b>/proc/cpuinfo</b> processor	: 15<br>\
+448 <b>/proc/cpuinfo</b> vendor_id	: GenuineIntel<br>\
+449 <b>/proc/cpuinfo</b> cpu family	: 6<br>\
+450 <b>/proc/cpuinfo</b> model		: 79<br>\
+451 <b>/proc/cpuinfo</b> model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz<br>\
+452 <b>/proc/cpuinfo</b> stepping	: 1<br>\
+453 <b>/proc/cpuinfo</b> microcode	: 0xb000036<br>\
+454 <b>/proc/cpuinfo</b> cpu MHz		: 2700.085<br>\
+455 <b>/proc/cpuinfo</b> cache size	: 46080 KB<br>\
+456 <b>/proc/cpuinfo</b> physical id	: 0<br>\
+457 <b>/proc/cpuinfo</b> siblings	: 16<br>\
+458 <b>/proc/cpuinfo</b> core id		: 7<br>\
+459 <b>/proc/cpuinfo</b> cpu cores	: 8<br>\
+460 <b>/proc/cpuinfo</b> apicid		: 15<br>\
+461 <b>/proc/cpuinfo</b> initial apicid	: 15<br>\
+462 <b>/proc/cpuinfo</b> fpu		: yes<br>\
+463 <b>/proc/cpuinfo</b> fpu_exception	: yes<br>\
+464 <b>/proc/cpuinfo</b> cpuid level	: 13<br>\
+465 <b>/proc/cpuinfo</b> wp		: yes<br>\
+466 <b>/proc/cpuinfo</b> flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt<br>\
+467 <b>/proc/cpuinfo</b> bogomips	: 4600.16<br>\
+468 <b>/proc/cpuinfo</b> clflush size	: 64<br>\
+469 <b>/proc/cpuinfo</b> cache_alignment	: 64<br>\
+470 <b>/proc/cpuinfo</b> address sizes	: 46 bits physical<br>\
+471 <b>/proc/cpuinfo</b> power management:<br>\
+472 <b>/proc/cpuinfo</b> <br>\
+473 <b>/proc/meminfo</b> <br>\
+474 <b>/proc/meminfo</b> MemTotal:       125653128 kB<br>\
+475 <b>/proc/meminfo</b> MemFree:         1086244 kB<br>\
+476 <b>/proc/meminfo</b> MemAvailable:   52063348 kB<br>\
+477 <b>/proc/meminfo</b> Buffers:          325152 kB<br>\
+478 <b>/proc/meminfo</b> Cached:         49634724 kB<br>\
+479 <b>/proc/meminfo</b> SwapCached:            0 kB<br>\
+480 <b>/proc/meminfo</b> Active:         93826012 kB<br>\
+481 <b>/proc/meminfo</b> Inactive:       27840608 kB<br>\
+482 <b>/proc/meminfo</b> Active(anon):   71706908 kB<br>\
+483 <b>/proc/meminfo</b> Inactive(anon):    17092 kB<br>\
+484 <b>/proc/meminfo</b> Active(file):   22119104 kB<br>\
+485 <b>/proc/meminfo</b> Inactive(file): 27823516 kB<br>\
+486 <b>/proc/meminfo</b> Unevictable:           0 kB<br>\
+487 <b>/proc/meminfo</b> Mlocked:               0 kB<br>\
+488 <b>/proc/meminfo</b> SwapTotal:             0 kB<br>\
+489 <b>/proc/meminfo</b> SwapFree:              0 kB<br>\
+490 <b>/proc/meminfo</b> Dirty:                68 kB<br>\
+491 <b>/proc/meminfo</b> Writeback:             0 kB<br>\
+492 <b>/proc/meminfo</b> AnonPages:      71706564 kB<br>\
+493 <b>/proc/meminfo</b> Mapped:            56592 kB<br>\
+494 <b>/proc/meminfo</b> Shmem:             17256 kB<br>\
+495 <b>/proc/meminfo</b> Slab:            1873800 kB<br>\
+496 <b>/proc/meminfo</b> SReclaimable:    1804236 kB<br>\
+497 <b>/proc/meminfo</b> SUnreclaim:        69564 kB<br>\
+498 <b>/proc/meminfo</b> KernelStack:        9952 kB<br>\
+499 <b>/proc/meminfo</b> PageTables:       183264 kB<br>\
+500 <b>/proc/meminfo</b> NFS_Unstable:          0 kB<br>\
+501 <b>/proc/meminfo</b> Bounce:                0 kB<br>\
+502 <b>/proc/meminfo</b> WritebackTmp:          0 kB<br>\
+503 <b>/proc/meminfo</b> CommitLimit:    62826564 kB<br>\
+504 <b>/proc/meminfo</b> Committed_AS:    1700544 kB<br>\
+505 <b>/proc/meminfo</b> VmallocTotal:   34359738367 kB<br>\
+506 <b>/proc/meminfo</b> VmallocUsed:      256820 kB<br>\
+507 <b>/proc/meminfo</b> VmallocChunk:   34359475964 kB<br>\
+508 <b>/proc/meminfo</b> HardwareCorrupted:     0 kB<br>\
+509 <b>/proc/meminfo</b> AnonHugePages:   2105344 kB<br>\
+510 <b>/proc/meminfo</b> CmaTotal:              0 kB<br>\
+511 <b>/proc/meminfo</b> CmaFree:               0 kB<br>\
+512 <b>/proc/meminfo</b> HugePages_Total:       0<br>\
+513 <b>/proc/meminfo</b> HugePages_Free:        0<br>\
+514 <b>/proc/meminfo</b> HugePages_Rsvd:        0<br>\
+515 <b>/proc/meminfo</b> HugePages_Surp:        0<br>\
+516 <b>/proc/meminfo</b> Hugepagesize:       2048 kB<br>\
+517 <b>/proc/meminfo</b> DirectMap4k:      180224 kB<br>\
+518 <b>/proc/meminfo</b> DirectMap2M:     8208384 kB<br>\
+519 <b>/proc/meminfo</b> DirectMap1G:    121634816 kB<br>\
+520 <b>/proc/stat</b> <br>\
+521 <b>/proc/stat</b> cpu  5997033 11 1120712 15839300 70694 0 41938 63240 0 0<br>\
+522 <b>/proc/stat</b> cpu0 426406 2 81932 930615 5809 0 245 3578 0 0<br>\
+523 <b>/proc/stat</b> cpu1 410617 2 76848 951354 5641 0 190 3907 0 0<br>\
+524 <b>/proc/stat</b> cpu2 404024 0 76634 959612 5500 0 183 3830 0 0<br>\
+525 <b>/proc/stat</b> cpu3 404138 0 76144 960114 5677 0 217 3729 0 0<br>\
+526 <b>/proc/stat</b> cpu4 383054 0 72461 970710 4813 0 4711 4279 0 0<br>\
+527 <b>/proc/stat</b> cpu5 373298 0 68859 984995 3606 0 3880 4176 0 0<br>\
+528 <b>/proc/stat</b> cpu6 373798 0 68102 987540 3724 0 3574 4124 0 0<br>\
+529 <b>/proc/stat</b> cpu7 374514 0 71133 978781 3451 0 7187 4234 0 0<br>\
+530 <b>/proc/stat</b> cpu8 307037 0 58306 1049911 2360 0 7296 4376 0 0<br>\
+531 <b>/proc/stat</b> cpu9 333432 0 60246 1030625 2849 0 5276 4308 0 0<br>\
+532 <b>/proc/stat</b> cpu10 365118 2 66618 1010514 4161 0 1344 3763 0 0<br>\
+533 <b>/proc/stat</b> cpu11 372558 1 68922 1006705 3940 0 219 3549 0 0<br>\
+534 <b>/proc/stat</b> cpu12 320539 0 57264 1046315 2838 0 6229 4480 0 0<br>\
+535 <b>/proc/stat</b> cpu13 376386 0 68673 1002896 4390 0 249 3551 0 0<br>\
+536 <b>/proc/stat</b> cpu14 370140 0 67383 1010521 4050 0 219 3570 0 0<br>\
+537 <b>/proc/stat</b> cpu15 401969 0 81180 958084 7875 0 913 3779 0 0<br>\
+538 <b>/proc/stat</b> intr 496458338 382 9 0 0 2054 0 3 0 2 0 0 0 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5704125 7846164 1610650 0 10142 0 5496077 8141288 1572880 0 8292 0 5433522 7973008 1552091 0 8609 0 5429213 7731985 1541851 0 6406 0 5405336 8201714 1540429 0 5826 0 5206546 8216386 1501498 0 6433 0 5176719 8306781 1484093 0 5578 0 5244752 7638812 1489163 0 6268 0 4196569 7715089 1348226 0 5070 0 4498010 6908036 1332218 0 4218 0 4730889 5977680 1446743 0 6306 0 4779061 6077234 1435805 0 9197 0 4321937 7345607 1350418 0 5701 0 4884214 6013506 1441260 0 8468 0 4781837 6072416 1434032 0 10346 0 5280407 5278009 1530559 0 10977 0 178 41 14989 12205739 10133233 17348201 14303062 15012226 5438547 12808236 18121700 42 1599259 1441476 1503706 1443063 1241585 1128868 1171278 1217130 742067 789308 1079990 1111169 708583 1107696 1116410 1605575 16296 1049838 1028168 947623 899554 889476 749848 734717 731316 516033 548764 723595 747371 526793 760752 718329 1006736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br>\
+539 <b>/proc/stat</b>  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br>\
+540 <b>/proc/stat</b> ctxt 342944130<br>\
+541 <b>/proc/stat</b> btime 1558839627<br>\
+542 <b>/proc/stat</b> processes 49799<br>\
+543 <b>/proc/stat</b> procs_running 1<br>\
+544 <b>/proc/stat</b> procs_blocked 0<br>\
+545 <b>/proc/stat</b> softirq 232955817 0 76751229 93821 111980217 0 0 1978963 16509749 0 25641838<br>\
+546 <b>/proc/version</b> <br>\
+547 <b>/proc/version</b> Linux version 3.10.0-957.12.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ) #1 SMP Tue May 14 21:24:32 UTC 2019<br>\
+548 <b>/proc/net/dev</b> <br>\
+549 <b>/proc/net/dev</b> Inter-|   Receive                                                |  Transmit<br>\
+550 <b>/proc/net/dev</b>  face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed<br>\
+551 <b>/proc/net/dev</b>   ens3: 387432625166 84308328    0    0    0     0          0         0 291212089382 74924060    0    0    0     0       0          0<br>\
+552 <b>/proc/net/dev</b>     lo: 97526915510 6662505    0    0    0     0          0         0 97526915510 6662505    0    0    0     0       0          0<br>\
+553 <b>/proc/diskinfo</b> <br>\
+554 <b>/proc/diskstats</b> <br>\
+555 <b>/proc/diskstats</b>  259       0 nvme0n1 777410 0 87756438 382916 18626034 124803363 8032274416 93382489 0 1621880 93805186<br>\
+556 <b>/proc/diskstats</b>  202       0 xvda 9376 2 711708 18588 6679 538 744421 112845 0 9658 131419<br>\
+557 <b>/proc/diskstats</b>  202       1 xvda1 9348 2 709628 18574 6572 538 744421 112835 0 9639 131395<br>\
+558 <b>/proc/diskstats</b>  259       1 nvme1n1 698898 0 72138384 292698 12158007 80325459 10198668420 100889121 0 1044658 101213181<br>\
+559 <b>/sbin/multipath</b> <br>\
+560 <b>/dev/mapper</b> <br>\
+561 <b>/dev/mapper</b> total 0<br>\
+562 <b>/dev/mapper</b> crw-------. 1 root root 10<br>\
+563 <b>/dev/mpath</b> <br>\
+564 <b>/dev/dm-*</b> <br>\
+565 <b>/dev/md*</b> <br>\
+566 <b>/dev/sd*</b> <br>\
+567 <b>/proc/partitions</b> <br>\
+568 <b>/proc/partitions</b> major minor  #blocks  name<br>\
+569 <b>/proc/partitions</b> <br>\
+570 <b>/proc/partitions</b>  259        0 1855468750 nvme0n1<br>\
+571 <b>/proc/partitions</b>  202        0    8388608 xvda<br>\
+572 <b>/proc/partitions</b>  202        1    8387584 xvda1<br>\
+573 <b>/proc/partitions</b>  259        1 1855468750 nvme1n1<br>\
+574 <b>/proc/1/stat</b> <br>\
+575 <b>/proc/1/stat</b> 1 (systemd) S 0 1 1 0 -1 4202752 18564 47570983 77 453 109 643 1621755 303241 20 0 1 0 32 199200768 1758 18446744073709551615 1 1 0 0 0 0 671173123 4096 1260 18446744073709551615 0 0 17 4 0 0 80 0 0 0 0 0 0 0 0 0 0<br>\
+576 <b>/proc/net/rpc/nfs</b> <br>\
+577 <b>/proc/net/rpc/nfsd</b> <br>\
+578 <b>/proc/modules</b> <br>\
+579 <b>/proc/modules</b> cfg80211 632335 0 - Live 0xffffffffc0668000<br>\
+580 <b>/proc/modules</b> rfkill 22391 1 cfg80211<br>\
+581 <b>/proc/modules</b> raid0 18164 0 - Live 0xffffffffc02fb000<br>\
+582 <b>/proc/modules</b> ext4 579979 2 - Live 0xffffffffc05d9000<br>\
+583 <b>/proc/modules</b> mbcache 14958 1 ext4<br>\
+584 <b>/proc/modules</b> jbd2 107478 1 ext4<br>\
+585 <b>/proc/modules</b> ppdev 17671 0 - Live 0xffffffffc05d3000<br>\
+586 <b>/proc/modules</b> sb_edac 31940 0 - Live 0xffffffffc05b4000<br>\
+587 <b>/proc/modules</b> intel_rapl 19542 0 - Live 0xffffffffc0486000<br>\
+588 <b>/proc/modules</b> iosf_mbi 15582 1 intel_rapl<br>\
+589 <b>/proc/modules</b> crc32_pclmul 13133 0 - Live 0xffffffffc02eb000<br>\
+590 <b>/proc/modules</b> ghash_clmulni_intel 13273 0 - Live 0xffffffffc02e1000<br>\
+591 <b>/proc/modules</b> aesni_intel 189415 0 - Live 0xffffffffc04c5000<br>\
+592 <b>/proc/modules</b> lrw 13286 1 aesni_intel<br>\
+593 <b>/proc/modules</b> gf128mul 15139 1 lrw<br>\
+594 <b>/proc/modules</b> glue_helper 13990 1 aesni_intel<br>\
+595 <b>/proc/modules</b> ablk_helper 13597 1 aesni_intel<br>\
+596 <b>/proc/modules</b> cryptd 21190 3 ghash_clmulni_intel<br>\
+597 <b>/proc/modules</b> cirrus 24377 1 - Live 0xffffffffc029b000<br>\
+598 <b>/proc/modules</b> ttm 114635 1 cirrus<br>\
+599 <b>/proc/modules</b> drm_kms_helper 179394 1 cirrus<br>\
+600 <b>/proc/modules</b> syscopyarea 12529 1 drm_kms_helper<br>\
+601 <b>/proc/modules</b> sysfillrect 12701 1 drm_kms_helper<br>\
+602 <b>/proc/modules</b> sysimgblt 12640 1 drm_kms_helper<br>\
+603 <b>/proc/modules</b> fb_sys_fops 12703 1 drm_kms_helper<br>\
+604 <b>/proc/modules</b> parport_pc 28205 0 - Live 0xffffffffc02bf000<br>\
+605 <b>/proc/modules</b> parport 46395 2 ppdev<br>\
+606 <b>/proc/modules</b> drm 429744 4 cirrus<br>\
+607 <b>/proc/modules</b> drm_panel_orientation_quirks 12957 1 drm<br>\
+608 <b>/proc/modules</b> i2c_piix4 22401 0 - Live 0xffffffffc02d3000<br>\
+609 <b>/proc/modules</b> pcspkr 12718 0 - Live 0xffffffffc0296000<br>\
+610 <b>/proc/modules</b> binfmt_misc 17468 1 - Live 0xffffffffc028c000<br>\
+611 <b>/proc/modules</b> ip_tables 27126 0 - Live 0xffffffffc0205000<br>\
+612 <b>/proc/modules</b> xfs 997127 1 - Live 0xffffffffc030c000<br>\
+613 <b>/proc/modules</b> libcrc32c 12644 1 xfs<br>\
+614 <b>/proc/modules</b> ata_generic 12923 0 - Live 0xffffffffc0241000<br>\
+615 <b>/proc/modules</b> pata_acpi 13053 0 - Live 0xffffffffc0239000<br>\
+616 <b>/proc/modules</b> xen_blkfront 26922 2 - Live 0xffffffffc01db000<br>\
+617 <b>/proc/modules</b> crct10dif_pclmul 14307 0 - Live 0xffffffffc02ba000<br>\
+618 <b>/proc/modules</b> crct10dif_common 12595 1 crct10dif_pclmul<br>\
+619 <b>/proc/modules</b> ata_piix 35052 0 - Live 0xffffffffc02a2000<br>\
+620 <b>/proc/modules</b> crc32c_intel 22094 1 - Live 0xffffffffc0232000<br>\
+621 <b>/proc/modules</b> libata 243133 3 ata_generic<br>\
+622 <b>/proc/modules</b> nvme 32338 2 - Live 0xffffffffc0229000<br>\
+623 <b>/proc/modules</b> ena 88594 0 - Live 0xffffffffc0212000<br>\
+624 <b>/proc/modules</b> serio_raw 13434 0 - Live 0xffffffffc020d000<br>\
+625 <b>/proc/modules</b> nvme_core 58852 3 nvme<br>\
+626 <b>/proc/modules</b> floppy 69432 0 - Live 0xffffffffc01e3000<br>\
+627 <b>/proc/modules</b> sunrpc 353407 1 - Live 0xffffffffc0183000<br>\
+628 <b>ifconfig</b> <br>\
+629 <b>ifconfig</b> ens3: flags=4163<UP<br>\
+630 <b>ifconfig</b>         inet 10.8.0.109  netmask 255.255.255.0  broadcast 10.8.0.255<br>\
+631 <b>ifconfig</b>         inet6 fe80::876:9bff:fe12:177c  prefixlen 64  scopeid 0x20<link><br>\
+632 <b>ifconfig</b>         ether 0a:76:9b:12:17:7c  txqueuelen 1000  (Ethernet)<br>\
+633 <b>ifconfig</b>         RX packets 84308393  bytes 387432632533 (360.8 GiB)<br>\
+634 <b>ifconfig</b>         RX errors 0  dropped 0  overruns 0  frame 0<br>\
+635 <b>ifconfig</b>         TX packets 74924128  bytes 291212096539 (271.2 GiB)<br>\
+636 <b>ifconfig</b>         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0<br>\
+637 <b>ifconfig</b> <br>\
+638 <b>ifconfig</b> lo: flags=73<UP<br>\
+639 <b>ifconfig</b>         inet 127.0.0.1  netmask 255.0.0.0<br>\
+640 <b>ifconfig</b>         inet6 ::1  prefixlen 128  scopeid 0x10<host><br>\
+641 <b>ifconfig</b>         loop  txqueuelen 1000  (Local Loopback)<br>\
+642 <b>ifconfig</b>         RX packets 6662514  bytes 97526916355 (90.8 GiB)<br>\
+643 <b>ifconfig</b>         RX errors 0  dropped 0  overruns 0  frame 0<br>\
+644 <b>ifconfig</b>         TX packets 6662514  bytes 97526916355 (90.8 GiB)<br>\
+645 <b>ifconfig</b>         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0<br>\
+646 <b>ifconfig</b> <br>\
+647 <b>/bin/df-m</b> <br>\
+648 <b>/bin/df-m</b> Filesystem     1M-blocks  Used Available Use% Mounted on<br>\
+649 <b>/bin/df-m</b> ddev/xvda1          8181  1472      6710  18% /<br>\
+650 <b>/bin/df-m</b> devtmpfs           61332     0     61332   0% /dev<br>\
+651 <b>/bin/df-m</b> tmpfs              61355     0     61355   0% /dev/shm<br>\
+652 <b>/bin/df-m</b> tmpfs              61355    17     61338   1% /run<br>\
+653 <b>/bin/df-m</b> tmpfs              61355     0     61355   0% /sys/fs/cgroup<br>\
+654 <b>/bin/df-m</b> ddev/nvme0n1     1783413 30565   1662233   2% /data1<br>\
+655 <b>/bin/df-m</b> ddev/nvme1n1     1783413 29437   1663361   2% /data2<br>\
+656 <b>/bin/df-m</b> tmpfs              12271     0     12271   0% /run/user/1001<br>\
+657 <b>/bin/mount</b> <br>\
+658 <b>/bin/mount</b> sysfs on /sys type sysfs (rw<br>\
+659 <b>/bin/mount</b> proc on /proc type proc (rw<br>\
+660 <b>/bin/mount</b> devtmpfs on /dev type devtmpfs (rw<br>\
+661 <b>/bin/mount</b> securityfs on /sys/kernel/security type securityfs (rw<br>\
+662 <b>/bin/mount</b> tmpfs on /dev/shm type tmpfs (rw<br>\
+663 <b>/bin/mount</b> devpts on /dev/pts type devpts (rw<br>\
+664 <b>/bin/mount</b> tmpfs on /run type tmpfs (rw<br>\
+665 <b>/bin/mount</b> tmpfs on /sys/fs/cgroup type tmpfs (ro<br>\
+666 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/systemd type cgroup (rw<br>\
+667 <b>/bin/mount</b> pstore on /sys/fs/pstore type pstore (rw<br>\
+668 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/devices type cgroup (rw<br>\
+669 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/net_cls<br>\
+670 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/freezer type cgroup (rw<br>\
+671 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/cpuset type cgroup (rw<br>\
+672 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/memory type cgroup (rw<br>\
+673 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/blkio type cgroup (rw<br>\
+674 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/cpu<br>\
+675 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw<br>\
+676 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/pids type cgroup (rw<br>\
+677 <b>/bin/mount</b> cgroup on /sys/fs/cgroup/perf_event type cgroup (rw<br>\
+678 <b>/bin/mount</b> configfs on /sys/kernel/config type configfs (rw<br>\
+679 <b>/bin/mount</b> ddev/xvda1 on / type xfs (rw<br>\
+680 <b>/bin/mount</b> rpc_pipefs on /var/lib/nfs/rpc_pipefs type rpc_pipefs (rw<br>\
+681 <b>/bin/mount</b> selinuxfs on /sys/fs/selinux type selinuxfs (rw<br>\
+682 <b>/bin/mount</b> systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw<br>\
+683 <b>/bin/mount</b> debugfs on /sys/kernel/debug type debugfs (rw<br>\
+684 <b>/bin/mount</b> mqueue on /dev/mqueue type mqueue (rw<br>\
+685 <b>/bin/mount</b> hugetlbfs on /dev/hugepages type hugetlbfs (rw<br>\
+686 <b>/bin/mount</b> binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw<br>\
+687 <b>/bin/mount</b> ddev/nvme0n1 on /data1 type ext4 (rw<br>\
+688 <b>/bin/mount</b> ddev/nvme1n1 on /data2 type ext4 (rw<br>\
+689 <b>/bin/mount</b> tmpfs on /run/user/1001 type tmpfs (rw<br>\
+690 <b>/etc/fstab</b> <br>\
+691 <b>/etc/fstab</b> <br>\
+692 <b>/etc/fstab</b> #<br>\
+693 <b>/etc/fstab</b> # /etc/fstab<br>\
+694 <b>/etc/fstab</b> # Created by anaconda on Mon Jan 28 20:51:49 2019<br>\
+695 <b>/etc/fstab</b> #<br>\
+696 <b>/etc/fstab</b> # Accessible filesystems<br>\
+697 <b>/etc/fstab</b> # See man pages fstab(5)<br>\
+698 <b>/etc/fstab</b> #<br>\
+699 <b>/etc/fstab</b> UUID=f41e390f-835b-4223-a9bb-9b45984ddf8d /                       xfs     defaults        0 0<br>\
+700 <b>netstat -r</b> <br>\
+701 <b>netstat -r</b> Kernel IP routing table<br>\
+702 <b>netstat -r</b> Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface<br>\
+703 <b>netstat -r</b> default         ip-10-8-0-1.us- 0.0.0.0         UG        0 0          0 ens3<br>\
+704 <b>netstat -r</b> 10.8.0.0        0.0.0.0         255.255.255.0   U         0 0          0 ens3<br>\
+705 <b>netstat -r</b> link-local      0.0.0.0         255.255.0.0     U         0 0          0 ens3<br>\
+706 <b>uptime</b> <br>\
+707 <b>uptime</b>  07:08:37 up  4:08<br>\
+708 <b>getconf PAGESIZE</b> <br>\
+709 <b>getconf PAGESIZE</b> 4096<br>\
+");
+}
+</script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		google.load("visualization", "1.1", {packages:["corechart"]});
+
+		google.setOnLoadCallback(setupCharts);
+		
+		function setupCharts() {
+		
+		var chart = null;
+
+			var data_CPU_UTIL = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'User%','Sys%','Wait%','Idle%','Steal%']
+,['Date(2019,  4, 26, 07, 08, 38)',6.4,3.3,0.0,89.6,0.7]
+,['Date(2019,  4, 26, 07, 08, 48)',16.4,6.7,0.0,75.3,1.6]
+,['Date(2019,  4, 26, 07, 08, 58)',16.9,6.7,0.0,74.7,1.6]
+,['Date(2019,  4, 26, 07, 09, 08)',16.8,6.6,0.0,75.0,1.6]
+,['Date(2019,  4, 26, 07, 09, 18)',16.4,6.3,0.0,75.6,1.6]
+,['Date(2019,  4, 26, 07, 09, 28)',16.2,6.3,0.0,75.8,1.6]
+,['Date(2019,  4, 26, 07, 09, 38)',17.8,6.7,0.0,73.9,1.6]
+,['Date(2019,  4, 26, 07, 09, 48)',17.3,6.9,0.0,74.1,1.6]
+,['Date(2019,  4, 26, 07, 09, 58)',18.2,6.8,0.1,73.2,1.6]
+,['Date(2019,  4, 26, 07, 10, 08)',15.6,6.3,0.0,76.5,1.7]
+,['Date(2019,  4, 26, 07, 10, 18)',17.8,6.9,0.0,73.6,1.6]
+,['Date(2019,  4, 26, 07, 10, 28)',16.7,6.9,0.0,74.7,1.6]
+,['Date(2019,  4, 26, 07, 10, 38)',15.8,6.6,0.0,75.9,1.7]
+,['Date(2019,  4, 26, 07, 10, 48)',16.8,6.8,0.0,74.7,1.6]
+,['Date(2019,  4, 26, 07, 10, 58)',23.8,7.8,0.0,66.8,1.6]
+,['Date(2019,  4, 26, 07, 11, 08)',28.2,8.8,0.0,61.5,1.5]
+,['Date(2019,  4, 26, 07, 11, 18)',25.8,8.5,0.0,64.2,1.5]
+,['Date(2019,  4, 26, 07, 11, 28)',24.1,8.7,0.1,65.6,1.6]
+		]);
+
+		var options_CPU_UTIL = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "CPU Utilisation Percentages",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  1
+		};
+
+		document.getElementById("draw_CPU_UTIL").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_CPU_UTIL, options_CPU_UTIL);
+		});
+
+			var data_MEM_LINUX = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'memtotal','memfree','cached','active','buffers','inactive']
+,['Date(2019,  4, 26, 07, 08, 38)',122708.1,1079.9,48471.5,91609.2,317.5,27188.1]
+,['Date(2019,  4, 26, 07, 08, 48)',122708.1,1080.4,48471.5,91609.9,317.5,27188.1]
+,['Date(2019,  4, 26, 07, 08, 58)',122708.1,1079.1,48471.5,91609.7,317.5,27188.1]
+,['Date(2019,  4, 26, 07, 09, 08)',122708.1,1079.4,48471.5,91609.3,317.5,27188.1]
+,['Date(2019,  4, 26, 07, 09, 18)',122708.1,1080.0,48471.6,91609.7,317.5,27188.1]
+,['Date(2019,  4, 26, 07, 09, 28)',122708.1,1079.2,48471.6,91609.7,317.5,27188.0]
+,['Date(2019,  4, 26, 07, 09, 38)',122708.1,1076.9,48471.6,91612.3,317.5,27188.0]
+,['Date(2019,  4, 26, 07, 09, 48)',122708.1,1089.7,48471.6,91605.4,317.5,27182.8]
+,['Date(2019,  4, 26, 07, 09, 58)',122708.1,1018.3,48540.0,91608.2,317.5,27251.9]
+,['Date(2019,  4, 26, 07, 10, 08)',122708.1,1086.0,48471.7,91608.0,317.5,27182.7]
+,['Date(2019,  4, 26, 07, 10, 18)',122708.1,1080.6,48492.6,91593.9,317.5,27203.2]
+,['Date(2019,  4, 26, 07, 10, 28)',122708.1,1061.8,48517.8,91645.7,317.5,27171.2]
+,['Date(2019,  4, 26, 07, 10, 38)',122708.1,1063.2,48517.8,91645.1,317.5,27171.2]
+,['Date(2019,  4, 26, 07, 10, 48)',122708.1,1059.9,48467.3,91724.7,317.5,27092.7]
+,['Date(2019,  4, 26, 07, 10, 58)',122708.1,664.0,48759.9,92019.8,317.5,27196.1]
+,['Date(2019,  4, 26, 07, 11, 08)',122708.1,1349.1,48053.7,91720.1,317.5,26824.9]
+,['Date(2019,  4, 26, 07, 11, 18)',122708.1,1007.6,48545.1,91876.6,317.6,27009.7]
+,['Date(2019,  4, 26, 07, 11, 28)',122708.1,1002.1,48615.3,91769.7,317.6,27129.6]
+		]);
+
+		var options_MEM_LINUX = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Real Memory - RAM in MB",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_MEM_LINUX").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_MEM_LINUX, options_MEM_LINUX);
+		});
+
+			var data_SWAP_LINUX = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'swaptotal','swapfree']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 58)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 08)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 18)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 28)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 38)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 48)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 58)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 08)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 18)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 28)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 38)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 48)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 58)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 28)',0.0,0.0]
+		]);
+
+		var options_SWAP_LINUX = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Virtual Memory - Paging Space in MB",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_SWAP_LINUX").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_SWAP_LINUX, options_SWAP_LINUX);
+		});
+
+			var data_RUNQBLOCK = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'Runnable','Blocked']
+,['Date(2019,  4, 26, 07, 08, 38)',9,0]
+,['Date(2019,  4, 26, 07, 08, 48)',10,0]
+,['Date(2019,  4, 26, 07, 08, 58)',6,0]
+,['Date(2019,  4, 26, 07, 09, 08)',6,0]
+,['Date(2019,  4, 26, 07, 09, 18)',10,0]
+,['Date(2019,  4, 26, 07, 09, 28)',13,0]
+,['Date(2019,  4, 26, 07, 09, 38)',10,0]
+,['Date(2019,  4, 26, 07, 09, 48)',10,0]
+,['Date(2019,  4, 26, 07, 09, 58)',10,0]
+,['Date(2019,  4, 26, 07, 10, 08)',9,0]
+,['Date(2019,  4, 26, 07, 10, 18)',7,0]
+,['Date(2019,  4, 26, 07, 10, 28)',6,0]
+,['Date(2019,  4, 26, 07, 10, 38)',10,0]
+,['Date(2019,  4, 26, 07, 10, 48)',8,0]
+,['Date(2019,  4, 26, 07, 10, 58)',9,0]
+,['Date(2019,  4, 26, 07, 11, 08)',16,0]
+,['Date(2019,  4, 26, 07, 11, 18)',11,0]
+,['Date(2019,  4, 26, 07, 11, 28)',13,0]
+		]);
+
+		var options_RUNQBLOCK = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Run Queue - processes that running or ready to run or Blocked",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_RUNQBLOCK").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_RUNQBLOCK, options_RUNQBLOCK);
+		});
+
+			var data_PSWITCH = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'pswitch']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',170981.3]
+,['Date(2019,  4, 26, 07, 08, 58)',170930.0]
+,['Date(2019,  4, 26, 07, 09, 08)',171101.8]
+,['Date(2019,  4, 26, 07, 09, 18)',171032.3]
+,['Date(2019,  4, 26, 07, 09, 28)',170618.7]
+,['Date(2019,  4, 26, 07, 09, 38)',170823.6]
+,['Date(2019,  4, 26, 07, 09, 48)',171277.2]
+,['Date(2019,  4, 26, 07, 09, 58)',170565.5]
+,['Date(2019,  4, 26, 07, 10, 08)',170991.9]
+,['Date(2019,  4, 26, 07, 10, 18)',170442.7]
+,['Date(2019,  4, 26, 07, 10, 28)',171126.1]
+,['Date(2019,  4, 26, 07, 10, 38)',171177.3]
+,['Date(2019,  4, 26, 07, 10, 48)',170725.7]
+,['Date(2019,  4, 26, 07, 10, 58)',170328.4]
+,['Date(2019,  4, 26, 07, 11, 08)',168088.9]
+,['Date(2019,  4, 26, 07, 11, 18)',170395.7]
+,['Date(2019,  4, 26, 07, 11, 28)',171172.4]
+		]);
+
+		var options_PSWITCH = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Process Switches per second - between processes",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_PSWITCH").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_PSWITCH, options_PSWITCH);
+		});
+
+			var data_FORKEXEC = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'fork','exec']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 08, 58)',1.6,0.0]
+,['Date(2019,  4, 26, 07, 09, 08)',1.2,0.0]
+,['Date(2019,  4, 26, 07, 09, 18)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 09, 28)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 09, 38)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 09, 48)',0.9,0.0]
+,['Date(2019,  4, 26, 07, 09, 58)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 10, 08)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 10, 18)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 10, 28)',1.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 38)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 10, 48)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 10, 58)',0.8,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',1.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',1.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 28)',0.8,0.0]
+		]);
+
+		var options_FORKEXEC = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Fork() and Exec() System Calls per second - creating processes",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_FORKEXEC").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_FORKEXEC, options_FORKEXEC);
+		});
+
+			var data_CPU_USE = google.visualization.arrayToDataTable([
+['CPU','User%','System%']
+,['CPU001',20.2,5.0]
+,['CPU002',20.0,4.7]
+,['CPU003',18.1,4.5]
+,['CPU004',16.1,4.5]
+,['CPU005',24.8,11.1]
+,['CPU006',25.1,14.4]
+,['CPU007',20.0,9.6]
+,['CPU008',18.3,8.5]
+,['CPU009',12.9,6.9]
+,['CPU010',20.9,15.0]
+,['CPU011',12.8,6.1]
+,['CPU012',15.5,4.0]
+,['CPU013',12.9,6.7]
+,['CPU014',16.4,3.8]
+,['CPU015',15.9,3.7]
+,['CPU016',21.2,4.3]
+		]);
+
+		var options_CPU_USE = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Use of Logical CPU Core Threads - POWER=SMT or x86=Hyperthreads",
+			focusTarget: "category",
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			isStacked:  1
+		};
+
+		document.getElementById("draw_CPU_USE").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.ColumnChart(document.getElementById("chart_master"));
+		chart.draw( data_CPU_USE, options_CPU_USE);
+		});
+
+			var data_TOPDISK = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'nvme0n1','xvda','xvda1','nvme1n1']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',0.0,0.0,0.1,0.0]
+,['Date(2019,  4, 26, 07, 08, 58)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 08)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 18)',0.0,0.1,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 28)',0.0,0.0,0.0,0.1]
+,['Date(2019,  4, 26, 07, 09, 38)',0.0,0.0,0.0,0.5]
+,['Date(2019,  4, 26, 07, 09, 48)',1.1,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 58)',0.0,0.0,0.0,2.5]
+,['Date(2019,  4, 26, 07, 10, 08)',0.1,0.0,0.0,0.1]
+,['Date(2019,  4, 26, 07, 10, 18)',1.3,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 28)',0.5,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 38)',0.0,0.0,0.0,0.1]
+,['Date(2019,  4, 26, 07, 10, 48)',0.2,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 58)',2.9,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',4.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',4.6,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 28)',8.1,0.0,0.0,0.0]
+		]);
+
+		var options_TOPDISK = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Top 15 disks by sum(Busy%)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_TOPDISK").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_TOPDISK, options_TOPDISK);
+		});
+
+			var data_TOPSUM = google.visualization.arrayToDataTable([
+['Command', 'CPU seconds', 'CharIO', 'Type', 'Memory KB' ]
+,['tikv-server', 14506.0,     418,'tikv-server',68014796]
+,['blackbox_export',    10.8,      70,'blackbox_export',   20636]
+,['node_exporter',     4.1,      52,'node_exporter', 1587912]
+,['rcu_sched',     2.9,       0,'rcu_sched',       0]
+,['kswapd0',     1.5,       0,'kswapd0',       0]
+,['nmon',     0.9,       2,'nmon',    2692]
+,['jbd2/nvme0n1-8',     0.8,       0,'jbd2/nvme0n1-8',       0]
+,['irqbalance',     0.2,       0,'irqbalance',     648]
+		]);
+
+		var options_TOPSUM = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Top 20 processes by CPU correlation between CPU-seconds(Total), Character-I/O(Total), Memory-Size(Max) for each Command Name",
+			hAxis: {title: "CPU seconds in Total"},
+			vAxis: {title: "Character I/O in Total"},
+			sizeAxis: {maxSize: 200},
+			bubble: {textStyle: {fontSize: 15}}
+		};
+
+		document.getElementById("draw_TOPSUM").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.BubbleChart(document.getElementById("chart_master"));
+		chart.draw( data_TOPSUM, options_TOPSUM);
+		});
+
+			var data_TOPCMD = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'rcu_sched','kswapd0','nmon','jbd2/nvme0n1-8','irqbalance','tikv-server','blackbox_export','node_exporter']
+,['Date(2019,  4, 26, 07, 08, 48)', 0.2, 0.0, 0.0, 0.0, 0.0, 821.3, 0.7, 0.0]
+,['Date(2019,  4, 26, 07, 08, 58)', 0.0, 0.0, 0.3, 0.0, 0.0, 826.3, 0.5, 0.4]
+,['Date(2019,  4, 26, 07, 09, 08)', 0.2, 0.0, 0.0, 0.0, 0.0, 827.9, 0.6, 0.3]
+,['Date(2019,  4, 26, 07, 09, 18)', 0.2, 0.0, 0.2, 0.0, 0.0, 824.3, 0.7, 0.0]
+,['Date(2019,  4, 26, 07, 09, 28)', 0.0, 0.0, 0.0, 0.0, 0.0, 822.8, 0.6, 0.5]
+,['Date(2019,  4, 26, 07, 09, 38)', 0.2, 0.0, 0.0, 0.0, 0.0, 841.3, 0.6, 0.3]
+,['Date(2019,  4, 26, 07, 09, 48)', 0.2, 0.0, 0.0, 0.0, 0.0, 843.1, 0.6, 0.0]
+,['Date(2019,  4, 26, 07, 09, 58)', 0.2, 0.0, 0.0, 0.0, 0.0, 850.5, 0.6, 0.3]
+,['Date(2019,  4, 26, 07, 10, 08)', 0.2, 0.0, 0.0, 0.0, 0.0, 824.7, 0.7, 0.5]
+,['Date(2019,  4, 26, 07, 10, 18)', 0.2, 0.0, 0.0, 0.0, 0.2, 848.1, 0.7, 0.0]
+,['Date(2019,  4, 26, 07, 10, 28)', 0.2, 0.0, 0.2, 0.0, 0.0, 836.6, 0.6, 0.4]
+,['Date(2019,  4, 26, 07, 10, 38)', 0.0, 0.0, 0.0, 0.0, 0.0, 826.9, 0.5, 0.3]
+,['Date(2019,  4, 26, 07, 10, 48)', 0.2, 0.0, 0.2, 0.0, 0.0, 834.1, 0.8, 0.0]
+,['Date(2019,  4, 26, 07, 10, 58)', 0.2, 0.3, 0.0, 0.0, 0.0, 902.8, 0.6, 0.3]
+,['Date(2019,  4, 26, 07, 11, 08)', 0.2, 1.2, 0.0, 0.2, 0.0, 942.3, 0.6, 0.4]
+,['Date(2019,  4, 26, 07, 11, 18)', 0.2, 0.0, 0.0, 0.4, 0.0, 921.5, 0.7, 0.0]
+,['Date(2019,  4, 26, 07, 11, 28)', 0.3, 0.0, 0.0, 0.2, 0.0, 911.6, 0.7, 0.4]
+		]);
+
+		var options_TOPCMD = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Top Process Commands by CPU (Percentage of a CPU core)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_TOPCMD").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_TOPCMD, options_TOPCMD);
+		});
+
+			var data_NET = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'ens3-read-KB/s','lo-read-KB/s','ens3-write-KB/s','lo-write-KB/s']
+,['Date(2019,  4, 26, 07, 08, 38)',2594.2,43.5,-4460.0,-43.5]
+,['Date(2019,  4, 26, 07, 08, 48)',5196.3,33.0,-9084.0,-33.0]
+,['Date(2019,  4, 26, 07, 08, 58)',5206.0,33.0,-9103.8,-33.0]
+,['Date(2019,  4, 26, 07, 09, 08)',5208.8,33.2,-9099.8,-33.2]
+,['Date(2019,  4, 26, 07, 09, 18)',5191.5,33.0,-9050.3,-33.0]
+,['Date(2019,  4, 26, 07, 09, 28)',5181.1,32.8,-9051.4,-32.8]
+,['Date(2019,  4, 26, 07, 09, 38)',5185.1,33.4,-12134.3,-33.4]
+,['Date(2019,  4, 26, 07, 09, 48)',5196.3,34.0,-16099.9,-34.0]
+,['Date(2019,  4, 26, 07, 09, 58)',5161.9,33.2,-16039.0,-33.2]
+,['Date(2019,  4, 26, 07, 10, 08)',5162.5,34.2,-16043.0,-34.2]
+,['Date(2019,  4, 26, 07, 10, 18)',5171.1,33.5,-16041.8,-33.5]
+,['Date(2019,  4, 26, 07, 10, 28)',5174.8,33.1,-11191.3,-33.1]
+,['Date(2019,  4, 26, 07, 10, 38)',5183.1,33.2,-9057.6,-33.2]
+,['Date(2019,  4, 26, 07, 10, 48)',5164.8,32.7,-9031.4,-32.7]
+,['Date(2019,  4, 26, 07, 10, 58)',5160.6,32.6,-9020.2,-32.6]
+,['Date(2019,  4, 26, 07, 11, 08)',5090.9,32.8,-8896.8,-32.8]
+,['Date(2019,  4, 26, 07, 11, 18)',5084.2,32.9,-8871.9,-32.9]
+,['Date(2019,  4, 26, 07, 11, 28)',5057.9,33.1,-8845.6,-33.1]
+		]);
+
+		var options_NET = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Network Receive(read) & Send(write shown negatively) in KB per second",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_NET").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_NET, options_NET);
+		});
+
+			var data_NETPACKET = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'ens3-read/s','lo-read/s','ens3-write/s','lo-write/s']
+,['Date(2019,  4, 26, 07, 08, 38)',19344.4,490.5,19355.2,490.5]
+,['Date(2019,  4, 26, 07, 08, 48)',38322.3,341.5,38325.6,341.5]
+,['Date(2019,  4, 26, 07, 08, 58)',38392.8,341.4,38393.2,341.4]
+,['Date(2019,  4, 26, 07, 09, 08)',38418.8,346.2,38421.9,346.2]
+,['Date(2019,  4, 26, 07, 09, 18)',38289.6,341.6,38296.4,341.6]
+,['Date(2019,  4, 26, 07, 09, 28)',38224.1,339.3,38224.4,339.3]
+,['Date(2019,  4, 26, 07, 09, 38)',38264.4,348.3,38600.8,348.3]
+,['Date(2019,  4, 26, 07, 09, 48)',38367.9,357.1,39118.0,357.1]
+,['Date(2019,  4, 26, 07, 09, 58)',38116.6,345.7,38874.0,345.7]
+,['Date(2019,  4, 26, 07, 10, 08)',38127.6,357.2,38885.8,357.2]
+,['Date(2019,  4, 26, 07, 10, 18)',38196.9,350.0,38950.2,350.0]
+,['Date(2019,  4, 26, 07, 10, 28)',38199.8,347.4,38423.6,347.4]
+,['Date(2019,  4, 26, 07, 10, 38)',38257.5,349.0,38256.5,349.0]
+,['Date(2019,  4, 26, 07, 10, 48)',38123.9,341.8,38122.9,341.8]
+,['Date(2019,  4, 26, 07, 10, 58)',38089.2,340.0,38084.4,340.0]
+,['Date(2019,  4, 26, 07, 11, 08)',37589.5,343.7,37574.6,343.7]
+,['Date(2019,  4, 26, 07, 11, 18)',37532.2,342.0,37526.3,342.0]
+,['Date(2019,  4, 26, 07, 11, 28)',37334.1,346.4,37327.8,346.4]
+		]);
+
+		var options_NETPACKET = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Network packet count per second",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_NETPACKET").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_NETPACKET, options_NETPACKET);
+		});
+
+			var data_DISKBUSY = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'nvme0n1','xvda','xvda1','nvme1n1']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',0.0,0.0,0.1,0.0]
+,['Date(2019,  4, 26, 07, 08, 58)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 08)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 18)',0.0,0.1,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 28)',0.0,0.0,0.0,0.1]
+,['Date(2019,  4, 26, 07, 09, 38)',0.0,0.0,0.0,0.5]
+,['Date(2019,  4, 26, 07, 09, 48)',1.1,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 58)',0.0,0.0,0.0,2.5]
+,['Date(2019,  4, 26, 07, 10, 08)',0.1,0.0,0.0,0.1]
+,['Date(2019,  4, 26, 07, 10, 18)',1.3,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 28)',0.5,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 38)',0.0,0.0,0.0,0.1]
+,['Date(2019,  4, 26, 07, 10, 48)',0.2,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 58)',2.9,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',4.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',4.6,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 28)',8.1,0.0,0.0,0.0]
+		]);
+
+		var options_DISKBUSY = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Busy Percentage of the time (Stacked)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  1
+		};
+
+		document.getElementById("draw_DISKBUSY").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKBUSY, options_DISKBUSY);
+		});
+
+		var options_DISKBUSYu = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Busy Percentage of the time (UnStacked)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			isStacked: 0
+		};
+
+		document.getElementById("draw_DISKBUSYu").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKBUSY, options_DISKBUSYu);
+		});
+
+			var data_DISKREAD = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'nvme0n1','xvda','xvda1','nvme1n1']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 58)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 08)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 18)',5.6,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 28)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 38)',0.0,0.0,0.0,3059.1]
+,['Date(2019,  4, 26, 07, 09, 48)',6981.2,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 09, 58)',0.0,0.0,0.0,13955.9]
+,['Date(2019,  4, 26, 07, 10, 08)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 18)',9107.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 28)',1144.5,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 38)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 48)',491.1,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 10, 58)',998.6,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',2457.6,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',375.1,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 28)',7945.7,0.0,0.0,0.0]
+		]);
+
+		var options_DISKREAD = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Read KB per second (Stacked)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  1
+		};
+
+		document.getElementById("draw_DISKREAD").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKREAD, options_DISKREAD);
+		});
+
+		var options_DISKREADu = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Read KB per second (UnStacked)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			isStacked: 0
+		};
+
+		document.getElementById("draw_DISKREADu").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKREAD, options_DISKREADu);
+		});
+
+			var data_DISKWRITE = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'nvme0n1','xvda','xvda1','nvme1n1']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',0.8,7.9,7.9,0.8]
+,['Date(2019,  4, 26, 07, 08, 58)',3.6,0.8,0.8,1.6]
+,['Date(2019,  4, 26, 07, 09, 08)',0.0,0.4,0.4,0.8]
+,['Date(2019,  4, 26, 07, 09, 18)',40.4,15.9,15.9,4.4]
+,['Date(2019,  4, 26, 07, 09, 28)',16.0,0.4,0.4,37.6]
+,['Date(2019,  4, 26, 07, 09, 38)',28.0,0.8,0.8,3095.4]
+,['Date(2019,  4, 26, 07, 09, 48)',7048.3,0.6,0.6,51.5]
+,['Date(2019,  4, 26, 07, 09, 58)',5.2,0.4,0.4,14052.2]
+,['Date(2019,  4, 26, 07, 10, 08)',22.4,0.8,0.8,54.3]
+,['Date(2019,  4, 26, 07, 10, 18)',9234.1,0.9,0.9,82.7]
+,['Date(2019,  4, 26, 07, 10, 28)',3656.9,0.8,0.8,41.5]
+,['Date(2019,  4, 26, 07, 10, 38)',4.8,0.4,0.4,28.0]
+,['Date(2019,  4, 26, 07, 10, 48)',3522.8,6.2,6.2,6.8]
+,['Date(2019,  4, 26, 07, 10, 58)',41772.7,0.8,0.8,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',56380.2,0.4,0.4,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',69026.3,0.9,0.9,29.1]
+,['Date(2019,  4, 26, 07, 11, 28)',89821.6,0.4,0.4,82.3]
+		]);
+
+		var options_DISKWRITE = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Write KB per second (Stacked)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  1
+		};
+
+		document.getElementById("draw_DISKWRITE").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKWRITE, options_DISKWRITE);
+		});
+
+		var options_DISKWRITEu = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Write KB per second (UnStacked)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			isStacked: 0
+		};
+
+		document.getElementById("draw_DISKWRITEu").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKWRITE, options_DISKWRITEu);
+		});
+
+			var data_DISKBSIZE = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'nvme0n1','xvda','xvda1','nvme1n1']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',4.0,13.2,13.2,4.0]
+,['Date(2019,  4, 26, 07, 08, 58)',4.0,4.0,4.0,4.0]
+,['Date(2019,  4, 26, 07, 09, 08)',0.0,4.0,4.0,4.0]
+,['Date(2019,  4, 26, 07, 09, 18)',9.0,9.9,9.9,7.3]
+,['Date(2019,  4, 26, 07, 09, 28)',8.4,4.0,4.0,6.8]
+,['Date(2019,  4, 26, 07, 09, 38)',6.7,4.0,4.0,117.8]
+,['Date(2019,  4, 26, 07, 09, 48)',118.6,3.0,3.0,7.7]
+,['Date(2019,  4, 26, 07, 09, 58)',6.5,4.0,4.0,121.7]
+,['Date(2019,  4, 26, 07, 10, 08)',6.8,4.0,4.0,8.8]
+,['Date(2019,  4, 26, 07, 10, 18)',117.9,4.5,4.5,6.9]
+,['Date(2019,  4, 26, 07, 10, 28)',96.5,8.0,8.0,6.4]
+,['Date(2019,  4, 26, 07, 10, 38)',6.0,4.0,4.0,8.0]
+,['Date(2019,  4, 26, 07, 10, 48)',116.5,6.2,6.2,4.5]
+,['Date(2019,  4, 26, 07, 10, 58)',119.3,8.0,8.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',120.7,4.0,4.0,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',118.3,4.5,4.5,7.5]
+,['Date(2019,  4, 26, 07, 11, 28)',115.5,4.0,4.0,6.5]
+		]);
+
+		var options_DISKBSIZE = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Block Size KB",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_DISKBSIZE").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKBSIZE, options_DISKBSIZE);
+		});
+
+			var data_DISKXFER = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'nvme0n1','xvda','xvda1','nvme1n1']
+,['Date(2019,  4, 26, 07, 08, 38)',0.0,0.0,0.0,0.0]
+,['Date(2019,  4, 26, 07, 08, 48)',0.2,0.6,0.6,0.2]
+,['Date(2019,  4, 26, 07, 08, 58)',0.9,0.2,0.2,0.4]
+,['Date(2019,  4, 26, 07, 09, 08)',0.0,0.1,0.1,0.2]
+,['Date(2019,  4, 26, 07, 09, 18)',5.1,1.6,1.6,0.6]
+,['Date(2019,  4, 26, 07, 09, 28)',1.9,0.1,0.1,5.5]
+,['Date(2019,  4, 26, 07, 09, 38)',4.2,0.2,0.2,52.2]
+,['Date(2019,  4, 26, 07, 09, 48)',118.3,0.2,0.2,6.7]
+,['Date(2019,  4, 26, 07, 09, 58)',0.8,0.1,0.1,230.1]
+,['Date(2019,  4, 26, 07, 10, 08)',3.3,0.2,0.2,6.2]
+,['Date(2019,  4, 26, 07, 10, 18)',155.6,0.2,0.2,12.0]
+,['Date(2019,  4, 26, 07, 10, 28)',49.7,0.1,0.1,6.5]
+,['Date(2019,  4, 26, 07, 10, 38)',0.8,0.1,0.1,3.5]
+,['Date(2019,  4, 26, 07, 10, 48)',34.5,1.0,1.0,1.5]
+,['Date(2019,  4, 26, 07, 10, 58)',358.5,0.1,0.1,0.0]
+,['Date(2019,  4, 26, 07, 11, 08)',487.3,0.1,0.1,0.0]
+,['Date(2019,  4, 26, 07, 11, 18)',586.5,0.2,0.2,3.9]
+,['Date(2019,  4, 26, 07, 11, 28)',846.6,0.1,0.1,12.7]
+		]);
+
+		var options_DISKXFER = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Disk Transfers per second",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_DISKXFER").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_DISKXFER, options_DISKXFER);
+		});
+
+			var data_JFS = google.visualization.arrayToDataTable([
+[{type: 'datetime', label: 'Datetime' },'/','/dev','/run','/','/data1','/data2']
+,['Date(2019,  4, 26, 07, 08, 38)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 08, 48)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 08, 58)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 09, 08)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 09, 18)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 09, 28)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 09, 38)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 09, 48)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 09, 58)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 10, 08)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 10, 18)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 10, 28)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 10, 38)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 10, 48)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 10, 58)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 11, 08)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 11, 18)',18.0,0.0,0.0,18.0,1.7,1.7]
+,['Date(2019,  4, 26, 07, 11, 28)',18.0,0.0,0.0,18.0,1.7,1.7]
+		]);
+
+		var options_JFS = {
+			chartArea: {left: "5%", width: "85%", top: "10%", height: "80%"},
+			title: "Journal File System Percent Full (Note: -1.234 = stats not avaialble)",
+			focusTarget: "category",
+			hAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 30
+				}
+			},
+			vAxis: {
+				gridlines: {
+					color: "lightgrey",
+					count: 11
+				}
+			},
+			explorer: { actions: ["dragToZoom", "rightClickToReset"],
+				axis: "horizontal",
+				keepInBounds: true,
+				maxZoomIn: 20.0
+			},
+			isStacked:  0
+		};
+
+		document.getElementById("draw_JFS").addEventListener("click", function() {
+		if (chart && chart.clearChart) chart.clearChart();
+
+		chart = new google.visualization.AreaChart(document.getElementById("chart_master"));
+		chart.draw( data_JFS, options_JFS);
+		});
+
+		}
+		</script>
+	</head>
+	 <body bgcolor="#EEEEFF">
+	nmon data file: <b>20190526070836_point_select_t32_r1000000_t16_e180_tikv3.nmon</b>  
+	<button onclick="config()"><b>Configuration</b></button> 
+	<button id="draw_TOPSUM" style="color:black;"><b>Top Summary</b></button>
+	<button id="draw_TOPCMD" style="color:black;"><b>Top Commands</b></button>
+	<button id="draw_TOPDISK" style="color:black;"><b>Top Disk</b></button>
+	<br>
+	<button id="draw_CPU_UTIL" style="color:red;"><b>CPU Util.</b></button>
+	<button id="draw_CPU_USE" style="color:red;"><b>CPU Use</b></button>
+	<button id="draw_RUNQBLOCK" style="color:red;"><b>RunQ Blocked</b></button>
+	<button id="draw_PSWITCH" style="color:red;"><b>pSwitch</b></button>
+	<button id="draw_FORKEXEC" style="color:red;"><b>ForkExec</b></button>
+	<button id="draw_MEM_LINUX" style="color:blue;"><b>Memory</b></button>
+	<button id="draw_SWAP_LINUX" style="color:blue;"><b>Swap</b></button>
+<br>
+	<button id="draw_NET" style="color:purple;"><b>Network</b></button>
+	<button id="draw_NETPACKET" style="color:purple;"><b>Net Packet</b></button>
+	<button id="draw_DISKBUSY" style="color:brown;"><b>Disk Busy</b></button>
+	<button id="draw_DISKBUSYu" style="color:brown;"><b>Unstacked</b></button>
+	<button id="draw_DISKREAD" style="color:brown;"><b>Disk Read</b></button>
+	<button id="draw_DISKREADu" style="color:brown;"><b>Unstacked</b></button>
+	<button id="draw_DISKWRITE" style="color:brown;"><b>Disk Write</b></button>
+	<button id="draw_DISKWRITEu" style="color:brown;"><b>Unstacked</b></button>
+	<button id="draw_DISKBSIZE" style="color:brown;"><b>Disk BSize</b></button>
+	<button id="draw_DISKXFER" style="color:brown;"><b>Disk Xfers</b></button>
+	<button id="draw_JFS" style="color:brown;"><b>JFS</b></button>
+
+	<div id="chart_master" style="width:100%; height:75%;">
+	<h2 style="color:blue">Click on a Graph button above, to display that graph</h2>
+	</div>
+
+<table><tr><td>
+<li>Host:tikv3
+<li>Date:26-MAY-2019
+<li>Time:07:08.37
+<li>Interval:10
+<li>Snapshots: 18
+<td>
+<li>Number of CPUs:16
+<li>Number of Disks:4
+<li>Linux Kernel 3.10.0-957.12.2.el7.x86_64
+<li>Linux Version "CentOS Linux release 7.6.1810 (Core) "
+<td valign=top>
+<hr>
+<li>Graphed by <a href=http://nmon.sourceforge.net/pmwiki.php?n=Site.Nmonchart>nmonchart</a> v 35
+<li>Developer: Nigel Griffiths @mr_nmon
+<li>Zoom=ON Left-click & Drag=Zoom-in. Right-click=Reset.
+</table>
+	</body>
+</html>

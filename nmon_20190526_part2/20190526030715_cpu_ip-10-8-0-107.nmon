@@ -1,0 +1,965 @@
+AAA,progname,20190526030715_cpu_ip-10-8-0-107.us-east-2.compute.internal.nmon
+AAA,command,/home/tidb/bin/nmon -F /home/tidb/nmon/20190526030715_cpu_ip-10-8-0-107.us-east-2.compute.internal.nmon -T -s 5 -c 6 
+AAA,version,16h
+AAA,disks_per_line,150
+AAA,max_disks,256,set by -d option
+AAA,disks,4,
+AAA,host,ip-10-8-0-107
+AAA,user,tidb
+AAA,OS,Linux,3.10.0-957.12.2.el7.x86_64,#1 SMP Tue May 14 21:24:32 UTC 2019,x86_64
+AAA,runname,ip-10-8-0-107
+AAA,time,03:07.15
+AAA,date,26-MAY-2019
+AAA,interval,5
+AAA,snapshots,6
+AAA,cpus,16
+AAA,x86,VendorId,GenuineIntel
+AAA,x86,ModelName,Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+AAA,x86,MHz,2700.225
+AAA,x86,bogomips,4600.14
+AAA,x86,ProcessorChips,1
+AAA,x86,Cores,8
+AAA,x86,hyperthreads,2
+AAA,x86,VirtualCPUs,16
+AAA,proc_stat_variables,8
+AAA,boottime,03:00 AM 26-May-2019
+AAA,note0, Warning - use the UNIX sort command to order this file before loading into a spreadsheet
+AAA,note1, The First Column is simply to get the output sorted in the right order
+AAA,note2, The T0001-T9999 column is a snapshot number. To work out the actual time; see the ZZZ section at the end
+CPU001,CPU 1 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU002,CPU 2 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU003,CPU 3 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU004,CPU 4 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU005,CPU 5 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU006,CPU 6 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU007,CPU 7 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU008,CPU 8 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU009,CPU 9 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU010,CPU 10 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU011,CPU 11 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU012,CPU 12 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU013,CPU 13 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU014,CPU 14 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU015,CPU 15 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU016,CPU 16 ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%
+CPU_ALL,CPU Total ip-10-8-0-107,User%,Sys%,Wait%,Idle%,Steal%,Busy,CPUs
+MEM,Memory MB ip-10-8-0-107,memtotal,hightotal,lowtotal,swaptotal,memfree,highfree,lowfree,swapfree,memshared,cached,active,bigfree,buffers,swapcached,inactive
+PROC,Processes ip-10-8-0-107,Runnable,Blocked,pswitch,syscall,read,write,fork,exec,sem,msg
+NET,Network I/O ip-10-8-0-107,ens3-read-KB/s,lo-read-KB/s,ens3-write-KB/s,lo-write-KB/s
+NETPACKET,Network Packets ip-10-8-0-107,ens3-read/s,lo-read/s,ens3-write/s,lo-write/s
+DISKBUSY,Disk %Busy ip-10-8-0-107,xvda,xvda1,nvme0n1,nvme1n1
+DISKREAD,Disk Read KB/s ip-10-8-0-107,xvda,xvda1,nvme0n1,nvme1n1
+DISKWRITE,Disk Write KB/s ip-10-8-0-107,xvda,xvda1,nvme0n1,nvme1n1
+DISKXFER,Disk transfers per second ip-10-8-0-107,xvda,xvda1,nvme0n1,nvme1n1
+DISKBSIZE,Disk Block Size ip-10-8-0-107,xvda,xvda1,nvme0n1,nvme1n1
+JFSFILE,JFS Filespace %Used ip-10-8-0-107,/,/dev,/run,/
+TOP,%CPU Utilisation
+TOP,+PID,Time,%CPU,%Usr,%Sys,Size,ResSet,ResText,ResData,ShdLib,MinorFault,MajorFault,Command,Threads,IOwaitTime
+BBBP,000,/etc/release
+BBBP,001,/etc/release,"CentOS Linux release 7.6.1810 (Core) "
+BBBP,002,/etc/release,"NAME=QCentOS LinuxQ"
+BBBP,003,/etc/release,"VERSION=Q7 (Core)Q"
+BBBP,004,/etc/release,"ID=QcentosQ"
+BBBP,005,/etc/release,"ID_LIKE=Qrhel fedoraQ"
+BBBP,006,/etc/release,"VERSION_ID=Q7Q"
+BBBP,007,/etc/release,"PRETTY_NAME=QCentOS Linux 7 (Core)Q"
+BBBP,008,/etc/release,"ANSI_COLOR=Q0;31Q"
+BBBP,009,/etc/release,"CPE_NAME=Qcpe:/o:centos:centos:7Q"
+BBBP,010,/etc/release,"HOME_URL=Qhttps://www.centos.org/Q"
+BBBP,011,/etc/release,"BUG_REPORT_URL=Qhttps://bugs.centos.org/Q"
+BBBP,012,/etc/release,""
+BBBP,013,/etc/release,"CENTOS_MANTISBT_PROJECT=QCentOS-7Q"
+BBBP,014,/etc/release,"CENTOS_MANTISBT_PROJECT_VERSION=Q7Q"
+BBBP,015,/etc/release,"REDHAT_SUPPORT_PRODUCT=QcentosQ"
+BBBP,016,/etc/release,"REDHAT_SUPPORT_PRODUCT_VERSION=Q7Q"
+BBBP,017,/etc/release,""
+BBBP,018,/etc/release,"CentOS Linux release 7.6.1810 (Core) "
+BBBP,019,/etc/release,"CentOS Linux release 7.6.1810 (Core) "
+BBBP,020,lsb_release
+BBBP,021,fdisk-l
+BBBP,022,lsblk
+BBBP,023,lsblk,"NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT"
+BBBP,024,lsblk,"xvda    202:0    0    8G  0 disk "
+BBBP,025,lsblk,"└─xvda1 202:1    0    8G  0 part /"
+BBBP,026,lsblk,"nvme0n1 259:0    0  1.7T  0 disk "
+BBBP,027,lsblk,"nvme1n1 259:1    0  1.7T  0 disk /data1"
+BBBP,028,lscpu
+BBBP,029,lscpu,"Architecture:          x86_64"
+BBBP,030,lscpu,"CPU op-mode(s):        32-bit, 64-bit"
+BBBP,031,lscpu,"Byte Order:            Little Endian"
+BBBP,032,lscpu,"CPU(s):                16"
+BBBP,033,lscpu,"On-line CPU(s) list:   0-15"
+BBBP,034,lscpu,"Thread(s) per core:    2"
+BBBP,035,lscpu,"Core(s) per socket:    8"
+BBBP,036,lscpu,"Socket(s):             1"
+BBBP,037,lscpu,"NUMA node(s):          1"
+BBBP,038,lscpu,"Vendor ID:             GenuineIntel"
+BBBP,039,lscpu,"CPU family:            6"
+BBBP,040,lscpu,"Model:                 79"
+BBBP,041,lscpu,"Model name:            Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,042,lscpu,"Stepping:              1"
+BBBP,043,lscpu,"CPU MHz:               2572.900"
+BBBP,044,lscpu,"CPU max MHz:           3000.0000"
+BBBP,045,lscpu,"CPU min MHz:           1200.0000"
+BBBP,046,lscpu,"BogoMIPS:              4600.14"
+BBBP,047,lscpu,"Hypervisor vendor:     Xen"
+BBBP,048,lscpu,"Virtualization type:   full"
+BBBP,049,lscpu,"L1d cache:             32K"
+BBBP,050,lscpu,"L1i cache:             32K"
+BBBP,051,lscpu,"L2 cache:              256K"
+BBBP,052,lscpu,"L3 cache:              46080K"
+BBBP,053,lscpu,"NUMA node0 CPU(s):     0-15"
+BBBP,054,lscpu,"Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,055,lshw
+BBBP,056,/proc/cpuinfo
+BBBP,057,/proc/cpuinfo,"processor	: 0"
+BBBP,058,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,059,/proc/cpuinfo,"cpu family	: 6"
+BBBP,060,/proc/cpuinfo,"model		: 79"
+BBBP,061,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,062,/proc/cpuinfo,"stepping	: 1"
+BBBP,063,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,064,/proc/cpuinfo,"cpu MHz		: 2572.900"
+BBBP,065,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,066,/proc/cpuinfo,"physical id	: 0"
+BBBP,067,/proc/cpuinfo,"siblings	: 16"
+BBBP,068,/proc/cpuinfo,"core id		: 0"
+BBBP,069,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,070,/proc/cpuinfo,"apicid		: 0"
+BBBP,071,/proc/cpuinfo,"initial apicid	: 0"
+BBBP,072,/proc/cpuinfo,"fpu		: yes"
+BBBP,073,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,074,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,075,/proc/cpuinfo,"wp		: yes"
+BBBP,076,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,077,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,078,/proc/cpuinfo,"clflush size	: 64"
+BBBP,079,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,080,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,081,/proc/cpuinfo,"power management:"
+BBBP,082,/proc/cpuinfo,""
+BBBP,083,/proc/cpuinfo,"processor	: 1"
+BBBP,084,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,085,/proc/cpuinfo,"cpu family	: 6"
+BBBP,086,/proc/cpuinfo,"model		: 79"
+BBBP,087,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,088,/proc/cpuinfo,"stepping	: 1"
+BBBP,089,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,090,/proc/cpuinfo,"cpu MHz		: 2701.348"
+BBBP,091,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,092,/proc/cpuinfo,"physical id	: 0"
+BBBP,093,/proc/cpuinfo,"siblings	: 16"
+BBBP,094,/proc/cpuinfo,"core id		: 1"
+BBBP,095,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,096,/proc/cpuinfo,"apicid		: 2"
+BBBP,097,/proc/cpuinfo,"initial apicid	: 2"
+BBBP,098,/proc/cpuinfo,"fpu		: yes"
+BBBP,099,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,100,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,101,/proc/cpuinfo,"wp		: yes"
+BBBP,102,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,103,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,104,/proc/cpuinfo,"clflush size	: 64"
+BBBP,105,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,106,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,107,/proc/cpuinfo,"power management:"
+BBBP,108,/proc/cpuinfo,""
+BBBP,109,/proc/cpuinfo,"processor	: 2"
+BBBP,110,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,111,/proc/cpuinfo,"cpu family	: 6"
+BBBP,112,/proc/cpuinfo,"model		: 79"
+BBBP,113,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,114,/proc/cpuinfo,"stepping	: 1"
+BBBP,115,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,116,/proc/cpuinfo,"cpu MHz		: 2701.489"
+BBBP,117,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,118,/proc/cpuinfo,"physical id	: 0"
+BBBP,119,/proc/cpuinfo,"siblings	: 16"
+BBBP,120,/proc/cpuinfo,"core id		: 2"
+BBBP,121,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,122,/proc/cpuinfo,"apicid		: 4"
+BBBP,123,/proc/cpuinfo,"initial apicid	: 4"
+BBBP,124,/proc/cpuinfo,"fpu		: yes"
+BBBP,125,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,126,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,127,/proc/cpuinfo,"wp		: yes"
+BBBP,128,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,129,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,130,/proc/cpuinfo,"clflush size	: 64"
+BBBP,131,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,132,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,133,/proc/cpuinfo,"power management:"
+BBBP,134,/proc/cpuinfo,""
+BBBP,135,/proc/cpuinfo,"processor	: 3"
+BBBP,136,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,137,/proc/cpuinfo,"cpu family	: 6"
+BBBP,138,/proc/cpuinfo,"model		: 79"
+BBBP,139,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,140,/proc/cpuinfo,"stepping	: 1"
+BBBP,141,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,142,/proc/cpuinfo,"cpu MHz		: 2180.957"
+BBBP,143,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,144,/proc/cpuinfo,"physical id	: 0"
+BBBP,145,/proc/cpuinfo,"siblings	: 16"
+BBBP,146,/proc/cpuinfo,"core id		: 3"
+BBBP,147,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,148,/proc/cpuinfo,"apicid		: 6"
+BBBP,149,/proc/cpuinfo,"initial apicid	: 6"
+BBBP,150,/proc/cpuinfo,"fpu		: yes"
+BBBP,151,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,152,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,153,/proc/cpuinfo,"wp		: yes"
+BBBP,154,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,155,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,156,/proc/cpuinfo,"clflush size	: 64"
+BBBP,157,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,158,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,159,/proc/cpuinfo,"power management:"
+BBBP,160,/proc/cpuinfo,""
+BBBP,161,/proc/cpuinfo,"processor	: 4"
+BBBP,162,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,163,/proc/cpuinfo,"cpu family	: 6"
+BBBP,164,/proc/cpuinfo,"model		: 79"
+BBBP,165,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,166,/proc/cpuinfo,"stepping	: 1"
+BBBP,167,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,168,/proc/cpuinfo,"cpu MHz		: 2699.243"
+BBBP,169,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,170,/proc/cpuinfo,"physical id	: 0"
+BBBP,171,/proc/cpuinfo,"siblings	: 16"
+BBBP,172,/proc/cpuinfo,"core id		: 4"
+BBBP,173,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,174,/proc/cpuinfo,"apicid		: 8"
+BBBP,175,/proc/cpuinfo,"initial apicid	: 8"
+BBBP,176,/proc/cpuinfo,"fpu		: yes"
+BBBP,177,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,178,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,179,/proc/cpuinfo,"wp		: yes"
+BBBP,180,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,181,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,182,/proc/cpuinfo,"clflush size	: 64"
+BBBP,183,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,184,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,185,/proc/cpuinfo,"power management:"
+BBBP,186,/proc/cpuinfo,""
+BBBP,187,/proc/cpuinfo,"processor	: 5"
+BBBP,188,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,189,/proc/cpuinfo,"cpu family	: 6"
+BBBP,190,/proc/cpuinfo,"model		: 79"
+BBBP,191,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,192,/proc/cpuinfo,"stepping	: 1"
+BBBP,193,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,194,/proc/cpuinfo,"cpu MHz		: 2699.945"
+BBBP,195,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,196,/proc/cpuinfo,"physical id	: 0"
+BBBP,197,/proc/cpuinfo,"siblings	: 16"
+BBBP,198,/proc/cpuinfo,"core id		: 5"
+BBBP,199,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,200,/proc/cpuinfo,"apicid		: 10"
+BBBP,201,/proc/cpuinfo,"initial apicid	: 10"
+BBBP,202,/proc/cpuinfo,"fpu		: yes"
+BBBP,203,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,204,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,205,/proc/cpuinfo,"wp		: yes"
+BBBP,206,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,207,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,208,/proc/cpuinfo,"clflush size	: 64"
+BBBP,209,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,210,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,211,/proc/cpuinfo,"power management:"
+BBBP,212,/proc/cpuinfo,""
+BBBP,213,/proc/cpuinfo,"processor	: 6"
+BBBP,214,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,215,/proc/cpuinfo,"cpu family	: 6"
+BBBP,216,/proc/cpuinfo,"model		: 79"
+BBBP,217,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,218,/proc/cpuinfo,"stepping	: 1"
+BBBP,219,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,220,/proc/cpuinfo,"cpu MHz		: 2699.945"
+BBBP,221,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,222,/proc/cpuinfo,"physical id	: 0"
+BBBP,223,/proc/cpuinfo,"siblings	: 16"
+BBBP,224,/proc/cpuinfo,"core id		: 6"
+BBBP,225,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,226,/proc/cpuinfo,"apicid		: 12"
+BBBP,227,/proc/cpuinfo,"initial apicid	: 12"
+BBBP,228,/proc/cpuinfo,"fpu		: yes"
+BBBP,229,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,230,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,231,/proc/cpuinfo,"wp		: yes"
+BBBP,232,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,233,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,234,/proc/cpuinfo,"clflush size	: 64"
+BBBP,235,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,236,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,237,/proc/cpuinfo,"power management:"
+BBBP,238,/proc/cpuinfo,""
+BBBP,239,/proc/cpuinfo,"processor	: 7"
+BBBP,240,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,241,/proc/cpuinfo,"cpu family	: 6"
+BBBP,242,/proc/cpuinfo,"model		: 79"
+BBBP,243,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,244,/proc/cpuinfo,"stepping	: 1"
+BBBP,245,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,246,/proc/cpuinfo,"cpu MHz		: 2700.225"
+BBBP,247,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,248,/proc/cpuinfo,"physical id	: 0"
+BBBP,249,/proc/cpuinfo,"siblings	: 16"
+BBBP,250,/proc/cpuinfo,"core id		: 7"
+BBBP,251,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,252,/proc/cpuinfo,"apicid		: 14"
+BBBP,253,/proc/cpuinfo,"initial apicid	: 14"
+BBBP,254,/proc/cpuinfo,"fpu		: yes"
+BBBP,255,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,256,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,257,/proc/cpuinfo,"wp		: yes"
+BBBP,258,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,259,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,260,/proc/cpuinfo,"clflush size	: 64"
+BBBP,261,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,262,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,263,/proc/cpuinfo,"power management:"
+BBBP,264,/proc/cpuinfo,""
+BBBP,265,/proc/cpuinfo,"processor	: 8"
+BBBP,266,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,267,/proc/cpuinfo,"cpu family	: 6"
+BBBP,268,/proc/cpuinfo,"model		: 79"
+BBBP,269,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,270,/proc/cpuinfo,"stepping	: 1"
+BBBP,271,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,272,/proc/cpuinfo,"cpu MHz		: 2702.612"
+BBBP,273,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,274,/proc/cpuinfo,"physical id	: 0"
+BBBP,275,/proc/cpuinfo,"siblings	: 16"
+BBBP,276,/proc/cpuinfo,"core id		: 0"
+BBBP,277,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,278,/proc/cpuinfo,"apicid		: 1"
+BBBP,279,/proc/cpuinfo,"initial apicid	: 1"
+BBBP,280,/proc/cpuinfo,"fpu		: yes"
+BBBP,281,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,282,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,283,/proc/cpuinfo,"wp		: yes"
+BBBP,284,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,285,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,286,/proc/cpuinfo,"clflush size	: 64"
+BBBP,287,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,288,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,289,/proc/cpuinfo,"power management:"
+BBBP,290,/proc/cpuinfo,""
+BBBP,291,/proc/cpuinfo,"processor	: 9"
+BBBP,292,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,293,/proc/cpuinfo,"cpu family	: 6"
+BBBP,294,/proc/cpuinfo,"model		: 79"
+BBBP,295,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,296,/proc/cpuinfo,"stepping	: 1"
+BBBP,297,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,298,/proc/cpuinfo,"cpu MHz		: 2222.229"
+BBBP,299,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,300,/proc/cpuinfo,"physical id	: 0"
+BBBP,301,/proc/cpuinfo,"siblings	: 16"
+BBBP,302,/proc/cpuinfo,"core id		: 1"
+BBBP,303,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,304,/proc/cpuinfo,"apicid		: 3"
+BBBP,305,/proc/cpuinfo,"initial apicid	: 3"
+BBBP,306,/proc/cpuinfo,"fpu		: yes"
+BBBP,307,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,308,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,309,/proc/cpuinfo,"wp		: yes"
+BBBP,310,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,311,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,312,/proc/cpuinfo,"clflush size	: 64"
+BBBP,313,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,314,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,315,/proc/cpuinfo,"power management:"
+BBBP,316,/proc/cpuinfo,""
+BBBP,317,/proc/cpuinfo,"processor	: 10"
+BBBP,318,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,319,/proc/cpuinfo,"cpu family	: 6"
+BBBP,320,/proc/cpuinfo,"model		: 79"
+BBBP,321,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,322,/proc/cpuinfo,"stepping	: 1"
+BBBP,323,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,324,/proc/cpuinfo,"cpu MHz		: 2700.085"
+BBBP,325,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,326,/proc/cpuinfo,"physical id	: 0"
+BBBP,327,/proc/cpuinfo,"siblings	: 16"
+BBBP,328,/proc/cpuinfo,"core id		: 2"
+BBBP,329,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,330,/proc/cpuinfo,"apicid		: 5"
+BBBP,331,/proc/cpuinfo,"initial apicid	: 5"
+BBBP,332,/proc/cpuinfo,"fpu		: yes"
+BBBP,333,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,334,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,335,/proc/cpuinfo,"wp		: yes"
+BBBP,336,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,337,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,338,/proc/cpuinfo,"clflush size	: 64"
+BBBP,339,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,340,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,341,/proc/cpuinfo,"power management:"
+BBBP,342,/proc/cpuinfo,""
+BBBP,343,/proc/cpuinfo,"processor	: 11"
+BBBP,344,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,345,/proc/cpuinfo,"cpu family	: 6"
+BBBP,346,/proc/cpuinfo,"model		: 79"
+BBBP,347,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,348,/proc/cpuinfo,"stepping	: 1"
+BBBP,349,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,350,/proc/cpuinfo,"cpu MHz		: 2572.338"
+BBBP,351,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,352,/proc/cpuinfo,"physical id	: 0"
+BBBP,353,/proc/cpuinfo,"siblings	: 16"
+BBBP,354,/proc/cpuinfo,"core id		: 3"
+BBBP,355,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,356,/proc/cpuinfo,"apicid		: 7"
+BBBP,357,/proc/cpuinfo,"initial apicid	: 7"
+BBBP,358,/proc/cpuinfo,"fpu		: yes"
+BBBP,359,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,360,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,361,/proc/cpuinfo,"wp		: yes"
+BBBP,362,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,363,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,364,/proc/cpuinfo,"clflush size	: 64"
+BBBP,365,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,366,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,367,/proc/cpuinfo,"power management:"
+BBBP,368,/proc/cpuinfo,""
+BBBP,369,/proc/cpuinfo,"processor	: 12"
+BBBP,370,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,371,/proc/cpuinfo,"cpu family	: 6"
+BBBP,372,/proc/cpuinfo,"model		: 79"
+BBBP,373,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,374,/proc/cpuinfo,"stepping	: 1"
+BBBP,375,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,376,/proc/cpuinfo,"cpu MHz		: 2375.384"
+BBBP,377,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,378,/proc/cpuinfo,"physical id	: 0"
+BBBP,379,/proc/cpuinfo,"siblings	: 16"
+BBBP,380,/proc/cpuinfo,"core id		: 4"
+BBBP,381,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,382,/proc/cpuinfo,"apicid		: 9"
+BBBP,383,/proc/cpuinfo,"initial apicid	: 9"
+BBBP,384,/proc/cpuinfo,"fpu		: yes"
+BBBP,385,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,386,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,387,/proc/cpuinfo,"wp		: yes"
+BBBP,388,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,389,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,390,/proc/cpuinfo,"clflush size	: 64"
+BBBP,391,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,392,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,393,/proc/cpuinfo,"power management:"
+BBBP,394,/proc/cpuinfo,""
+BBBP,395,/proc/cpuinfo,"processor	: 13"
+BBBP,396,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,397,/proc/cpuinfo,"cpu family	: 6"
+BBBP,398,/proc/cpuinfo,"model		: 79"
+BBBP,399,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,400,/proc/cpuinfo,"stepping	: 1"
+BBBP,401,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,402,/proc/cpuinfo,"cpu MHz		: 2700.225"
+BBBP,403,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,404,/proc/cpuinfo,"physical id	: 0"
+BBBP,405,/proc/cpuinfo,"siblings	: 16"
+BBBP,406,/proc/cpuinfo,"core id		: 5"
+BBBP,407,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,408,/proc/cpuinfo,"apicid		: 11"
+BBBP,409,/proc/cpuinfo,"initial apicid	: 11"
+BBBP,410,/proc/cpuinfo,"fpu		: yes"
+BBBP,411,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,412,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,413,/proc/cpuinfo,"wp		: yes"
+BBBP,414,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,415,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,416,/proc/cpuinfo,"clflush size	: 64"
+BBBP,417,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,418,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,419,/proc/cpuinfo,"power management:"
+BBBP,420,/proc/cpuinfo,""
+BBBP,421,/proc/cpuinfo,"processor	: 14"
+BBBP,422,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,423,/proc/cpuinfo,"cpu family	: 6"
+BBBP,424,/proc/cpuinfo,"model		: 79"
+BBBP,425,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,426,/proc/cpuinfo,"stepping	: 1"
+BBBP,427,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,428,/proc/cpuinfo,"cpu MHz		: 2700.646"
+BBBP,429,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,430,/proc/cpuinfo,"physical id	: 0"
+BBBP,431,/proc/cpuinfo,"siblings	: 16"
+BBBP,432,/proc/cpuinfo,"core id		: 6"
+BBBP,433,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,434,/proc/cpuinfo,"apicid		: 13"
+BBBP,435,/proc/cpuinfo,"initial apicid	: 13"
+BBBP,436,/proc/cpuinfo,"fpu		: yes"
+BBBP,437,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,438,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,439,/proc/cpuinfo,"wp		: yes"
+BBBP,440,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,441,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,442,/proc/cpuinfo,"clflush size	: 64"
+BBBP,443,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,444,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,445,/proc/cpuinfo,"power management:"
+BBBP,446,/proc/cpuinfo,""
+BBBP,447,/proc/cpuinfo,"processor	: 15"
+BBBP,448,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,449,/proc/cpuinfo,"cpu family	: 6"
+BBBP,450,/proc/cpuinfo,"model		: 79"
+BBBP,451,/proc/cpuinfo,"model name	: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
+BBBP,452,/proc/cpuinfo,"stepping	: 1"
+BBBP,453,/proc/cpuinfo,"microcode	: 0xb000036"
+BBBP,454,/proc/cpuinfo,"cpu MHz		: 2700.085"
+BBBP,455,/proc/cpuinfo,"cache size	: 46080 KB"
+BBBP,456,/proc/cpuinfo,"physical id	: 0"
+BBBP,457,/proc/cpuinfo,"siblings	: 16"
+BBBP,458,/proc/cpuinfo,"core id		: 7"
+BBBP,459,/proc/cpuinfo,"cpu cores	: 8"
+BBBP,460,/proc/cpuinfo,"apicid		: 15"
+BBBP,461,/proc/cpuinfo,"initial apicid	: 15"
+BBBP,462,/proc/cpuinfo,"fpu		: yes"
+BBBP,463,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,464,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,465,/proc/cpuinfo,"wp		: yes"
+BBBP,466,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx xsaveopt"
+BBBP,467,/proc/cpuinfo,"bogomips	: 4600.14"
+BBBP,468,/proc/cpuinfo,"clflush size	: 64"
+BBBP,469,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,470,/proc/cpuinfo,"address sizes	: 46 bits physical, 48 bits virtual"
+BBBP,471,/proc/cpuinfo,"power management:"
+BBBP,472,/proc/cpuinfo,""
+BBBP,473,/proc/meminfo
+BBBP,474,/proc/meminfo,"MemTotal:       125653128 kB"
+BBBP,475,/proc/meminfo,"MemFree:        124541056 kB"
+BBBP,476,/proc/meminfo,"MemAvailable:   124025548 kB"
+BBBP,477,/proc/meminfo,"Buffers:            3024 kB"
+BBBP,478,/proc/meminfo,"Cached:           147724 kB"
+BBBP,479,/proc/meminfo,"SwapCached:            0 kB"
+BBBP,480,/proc/meminfo,"Active:            82664 kB"
+BBBP,481,/proc/meminfo,"Inactive:         104204 kB"
+BBBP,482,/proc/meminfo,"Active(anon):      36224 kB"
+BBBP,483,/proc/meminfo,"Inactive(anon):    17136 kB"
+BBBP,484,/proc/meminfo,"Active(file):      46440 kB"
+BBBP,485,/proc/meminfo,"Inactive(file):    87068 kB"
+BBBP,486,/proc/meminfo,"Unevictable:           0 kB"
+BBBP,487,/proc/meminfo,"Mlocked:               0 kB"
+BBBP,488,/proc/meminfo,"SwapTotal:             0 kB"
+BBBP,489,/proc/meminfo,"SwapFree:              0 kB"
+BBBP,490,/proc/meminfo,"Dirty:                56 kB"
+BBBP,491,/proc/meminfo,"Writeback:             0 kB"
+BBBP,492,/proc/meminfo,"AnonPages:         35568 kB"
+BBBP,493,/proc/meminfo,"Mapped:            22016 kB"
+BBBP,494,/proc/meminfo,"Shmem:             17356 kB"
+BBBP,495,/proc/meminfo,"Slab:              97712 kB"
+BBBP,496,/proc/meminfo,"SReclaimable:      37104 kB"
+BBBP,497,/proc/meminfo,"SUnreclaim:        60608 kB"
+BBBP,498,/proc/meminfo,"KernelStack:        5264 kB"
+BBBP,499,/proc/meminfo,"PageTables:         3392 kB"
+BBBP,500,/proc/meminfo,"NFS_Unstable:          0 kB"
+BBBP,501,/proc/meminfo,"Bounce:                0 kB"
+BBBP,502,/proc/meminfo,"WritebackTmp:          0 kB"
+BBBP,503,/proc/meminfo,"CommitLimit:    62826564 kB"
+BBBP,504,/proc/meminfo,"Committed_AS:     255100 kB"
+BBBP,505,/proc/meminfo,"VmallocTotal:   34359738367 kB"
+BBBP,506,/proc/meminfo,"VmallocUsed:      256352 kB"
+BBBP,507,/proc/meminfo,"VmallocChunk:   34359475964 kB"
+BBBP,508,/proc/meminfo,"HardwareCorrupted:     0 kB"
+BBBP,509,/proc/meminfo,"AnonHugePages:      4096 kB"
+BBBP,510,/proc/meminfo,"CmaTotal:              0 kB"
+BBBP,511,/proc/meminfo,"CmaFree:               0 kB"
+BBBP,512,/proc/meminfo,"HugePages_Total:       0"
+BBBP,513,/proc/meminfo,"HugePages_Free:        0"
+BBBP,514,/proc/meminfo,"HugePages_Rsvd:        0"
+BBBP,515,/proc/meminfo,"HugePages_Surp:        0"
+BBBP,516,/proc/meminfo,"Hugepagesize:       2048 kB"
+BBBP,517,/proc/meminfo,"DirectMap4k:      153600 kB"
+BBBP,518,/proc/meminfo,"DirectMap2M:     5089280 kB"
+BBBP,519,/proc/meminfo,"DirectMap1G:    124780544 kB"
+BBBP,520,/proc/stat
+BBBP,521,/proc/stat,"cpu  2437 0 2431 657370 405 0 17 21848 0 0"
+BBBP,522,/proc/stat,"cpu0 556 0 359 40161 146 0 17 1071 0 0"
+BBBP,523,/proc/stat,"cpu1 69 0 128 41165 41 0 0 1413 0 0"
+BBBP,524,/proc/stat,"cpu2 66 0 85 41273 8 0 0 1374 0 0"
+BBBP,525,/proc/stat,"cpu3 105 0 135 41171 13 0 0 1374 0 0"
+BBBP,526,/proc/stat,"cpu4 43 0 74 41318 2 0 0 1373 0 0"
+BBBP,527,/proc/stat,"cpu5 100 0 128 41183 13 0 0 1378 0 0"
+BBBP,528,/proc/stat,"cpu6 32 0 71 41330 5 0 0 1375 0 0"
+BBBP,529,/proc/stat,"cpu7 52 0 94 41285 3 0 0 1378 0 0"
+BBBP,530,/proc/stat,"cpu8 96 0 196 41094 21 0 0 1399 0 0"
+BBBP,531,/proc/stat,"cpu9 122 0 151 41138 25 0 0 1384 0 0"
+BBBP,532,/proc/stat,"cpu10 92 0 186 41133 21 0 0 1382 0 0"
+BBBP,533,/proc/stat,"cpu11 84 0 161 41152 19 0 0 1384 0 0"
+BBBP,534,/proc/stat,"cpu12 117 0 205 41088 15 0 0 1388 0 0"
+BBBP,535,/proc/stat,"cpu13 631 0 131 40647 17 0 0 1391 0 0"
+BBBP,536,/proc/stat,"cpu14 164 0 189 41044 30 0 0 1391 0 0"
+BBBP,537,/proc/stat,"cpu15 101 0 131 41180 19 0 0 1388 0 0"
+BBBP,538,/proc/stat,"intr 413217 299 9 0 0 2049 0 3 0 2 0 0 0 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18341 3787 528 0 110 0 9128 3098 734 0 224 0 7108 4969 698 0 83 0 10661 9582 713 0 43 0 5191 2708 743 0 31 0 8422 9380 710 0 93 0 4916 2086 718 0 28 0 6172 4683 740 0 34 0 9580 4002 671 0 684 0 9583 4124 750 0 598 0 8736 3375 749 0 560 0 10722 4701 659 0 682 0 11310 5905 652 0 428 0 13435 4026 739 0 1129 0 12991 4779 720 0 767 0 8702 4780 703 0 984 0 165 515 433 68 76 108 54 61 59 127 35 36 6764 406 0 17 3 1 0 0 0 0 0 0 16 18 0 0 0 4083 4001 3540 3760 3542 3257 3413 3129 3087 3142 3147 3229 4261 4361 4838 3572 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,539,/proc/stat,"ctxt 259750"
+BBBP,540,/proc/stat,"btime 1558839620"
+BBBP,541,/proc/stat,"processes 18666"
+BBBP,542,/proc/stat,"procs_running 1"
+BBBP,543,/proc/stat,"procs_blocked 0"
+BBBP,544,/proc/stat,"softirq 301039 0 151987 117 991 0 0 5 47304 0 100635"
+BBBP,545,/proc/version
+BBBP,546,/proc/version,"Linux version 3.10.0-957.12.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ) #1 SMP Tue May 14 21:24:32 UTC 2019"
+BBBP,547,/proc/net/dev
+BBBP,548,/proc/net/dev,"Inter-|   Receive                                                |  Transmit"
+BBBP,549,/proc/net/dev," face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed"
+BBBP,550,/proc/net/dev,"  ens3:   23025     171    0    0    0     0          0         0    22718     183    0    0    0     0       0          0"
+BBBP,551,/proc/net/dev,"    lo:     416       6    0    0    0     0          0         0      416       6    0    0    0     0       0          0"
+BBBP,552,/proc/diskinfo
+BBBP,553,/proc/diskstats
+BBBP,554,/proc/diskstats," 202       0 xvda 5349 1 273596 8140 1545 242 46840 8868 0 6039 17001"
+BBBP,555,/proc/diskstats," 202       1 xvda1 5321 1 271516 8133 1545 242 46840 8868 0 6035 16994"
+BBBP,556,/proc/diskstats," 259       0 nvme0n1 511 0 27628 40 0 0 0 0 0 29 40"
+BBBP,557,/proc/diskstats," 259       1 nvme1n1 800 0 31678 55 61179 72593 3725295228 100224 0 1065 100278"
+BBBP,558,/sbin/multipath
+BBBP,559,/dev/mapper
+BBBP,560,/dev/mapper,"total 0"
+BBBP,561,/dev/mapper,"crw-------. 1 root root 10, 236 May 26 03:00 control"
+BBBP,562,/dev/mpath
+BBBP,563,/dev/dm-*
+BBBP,564,/dev/md*
+BBBP,565,/dev/sd*
+BBBP,566,/proc/partitions
+BBBP,567,/proc/partitions,"major minor  #blocks  name"
+BBBP,568,/proc/partitions,""
+BBBP,569,/proc/partitions," 202        0    8388608 xvda"
+BBBP,570,/proc/partitions," 202        1    8387584 xvda1"
+BBBP,571,/proc/partitions," 259        0 1855468750 nvme0n1"
+BBBP,572,/proc/partitions," 259        1 1855468750 nvme1n1"
+BBBP,573,/proc/1/stat
+BBBP,574,/proc/1/stat,"1 (systemd) S 0 1 1 0 -1 4202752 11218 4392468 64 318 24 357 2359 1324 20 0 1 0 25 198787072 1798 18446744073709551615 1 1 0 0 0 0 671173123 4096 1260 18446744073709551615 0 0 17 3 0 0 69 0 0 0 0 0 0 0 0 0 0"
+BBBP,575,/proc/net/rpc/nfs
+BBBP,576,/proc/net/rpc/nfsd
+BBBP,577,/proc/modules
+BBBP,578,/proc/modules,"ext4 579979 1 - Live 0xffffffffc059c000"
+BBBP,579,/proc/modules,"mbcache 14958 1 ext4, Live 0xffffffffc02fc000"
+BBBP,580,/proc/modules,"jbd2 107478 1 ext4, Live 0xffffffffc0308000"
+BBBP,581,/proc/modules,"ppdev 17671 0 - Live 0xffffffffc02c8000"
+BBBP,582,/proc/modules,"sb_edac 31940 0 - Live 0xffffffffc0593000"
+BBBP,583,/proc/modules,"intel_rapl 19542 0 - Live 0xffffffffc04cd000"
+BBBP,584,/proc/modules,"iosf_mbi 15582 1 intel_rapl, Live 0xffffffffc0541000"
+BBBP,585,/proc/modules,"crc32_pclmul 13133 0 - Live 0xffffffffc054c000"
+BBBP,586,/proc/modules,"ghash_clmulni_intel 13273 0 - Live 0xffffffffc02df000"
+BBBP,587,/proc/modules,"cirrus 24377 1 - Live 0xffffffffc0856000"
+BBBP,588,/proc/modules,"ttm 114635 1 cirrus, Live 0xffffffffc06c1000"
+BBBP,589,/proc/modules,"aesni_intel 189415 0 - Live 0xffffffffc049d000"
+BBBP,590,/proc/modules,"lrw 13286 1 aesni_intel, Live 0xffffffffc04d5000"
+BBBP,591,/proc/modules,"drm_kms_helper 179394 1 cirrus, Live 0xffffffffc04ec000"
+BBBP,592,/proc/modules,"gf128mul 15139 1 lrw, Live 0xffffffffc02c3000"
+BBBP,593,/proc/modules,"syscopyarea 12529 1 drm_kms_helper, Live 0xffffffffc02be000"
+BBBP,594,/proc/modules,"sysfillrect 12701 1 drm_kms_helper, Live 0xffffffffc028a000"
+BBBP,595,/proc/modules,"sysimgblt 12640 1 drm_kms_helper, Live 0xffffffffc0285000"
+BBBP,596,/proc/modules,"fb_sys_fops 12703 1 drm_kms_helper, Live 0xffffffffc0498000"
+BBBP,597,/proc/modules,"parport_pc 28205 0 - Live 0xffffffffc02f2000"
+BBBP,598,/proc/modules,"glue_helper 13990 1 aesni_intel, Live 0xffffffffc02ad000"
+BBBP,599,/proc/modules,"parport 46395 2 ppdev,parport_pc, Live 0xffffffffc02d2000"
+BBBP,600,/proc/modules,"ablk_helper 13597 1 aesni_intel, Live 0xffffffffc02ed000"
+BBBP,601,/proc/modules,"drm 429744 4 cirrus,ttm,drm_kms_helper, Live 0xffffffffc042c000"
+BBBP,602,/proc/modules,"cryptd 21190 3 ghash_clmulni_intel,aesni_intel,ablk_helper, Live 0xffffffffc0301000"
+BBBP,603,/proc/modules,"drm_panel_orientation_quirks 12957 1 drm, Live 0xffffffffc04e7000"
+BBBP,604,/proc/modules,"i2c_piix4 22401 0 - Live 0xffffffffc02a6000"
+BBBP,605,/proc/modules,"pcspkr 12718 0 - Live 0xffffffffc0234000"
+BBBP,606,/proc/modules,"binfmt_misc 17468 1 - Live 0xffffffffc027f000"
+BBBP,607,/proc/modules,"ip_tables 27126 0 - Live 0xffffffffc0215000"
+BBBP,608,/proc/modules,"xfs 997127 1 - Live 0xffffffffc032c000"
+BBBP,609,/proc/modules,"libcrc32c 12644 1 xfs, Live 0xffffffffc0204000"
+BBBP,610,/proc/modules,"ata_generic 12923 0 - Live 0xffffffffc01ff000"
+BBBP,611,/proc/modules,"pata_acpi 13053 0 - Live 0xffffffffc01f7000"
+BBBP,612,/proc/modules,"xen_blkfront 26922 2 - Live 0xffffffffc0324000"
+BBBP,613,/proc/modules,"crct10dif_pclmul 14307 0 - Live 0xffffffffc02a1000"
+BBBP,614,/proc/modules,"crct10dif_common 12595 1 crct10dif_pclmul, Live 0xffffffffc02e8000"
+BBBP,615,/proc/modules,"crc32c_intel 22094 1 - Live 0xffffffffc0278000"
+BBBP,616,/proc/modules,"serio_raw 13434 0 - Live 0xffffffffc01f2000"
+BBBP,617,/proc/modules,"ata_piix 35052 0 - Live 0xffffffffc020b000"
+BBBP,618,/proc/modules,"nvme 32338 1 - Live 0xffffffffc02b5000"
+BBBP,619,/proc/modules,"floppy 69432 0 - Live 0xffffffffc028f000"
+BBBP,620,/proc/modules,"libata 243133 3 ata_generic,pata_acpi,ata_piix, Live 0xffffffffc023b000"
+BBBP,621,/proc/modules,"ena 88594 0 - Live 0xffffffffc021d000"
+BBBP,622,/proc/modules,"nvme_core 58852 2 nvme, Live 0xffffffffc01e2000"
+BBBP,623,/proc/modules,"sunrpc 353407 1 - Live 0xffffffffc018a000"
+BBBP,624,ifconfig
+BBBP,625,ifconfig,"ens3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001"
+BBBP,626,ifconfig,"        inet 10.8.0.107  netmask 255.255.255.0  broadcast 10.8.0.255"
+BBBP,627,ifconfig,"        inet6 fe80::82b:c1ff:fe29:5d12  prefixlen 64  scopeid 0x20<link>"
+BBBP,628,ifconfig,"        ether 0a:2b:c1:29:5d:12  txqueuelen 1000  (Ethernet)"
+BBBP,629,ifconfig,"        RX packets 171  bytes 23025 (22.4 KiB)"
+BBBP,630,ifconfig,"        RX errors 0  dropped 0  overruns 0  frame 0"
+BBBP,631,ifconfig,"        TX packets 183  bytes 22718 (22.1 KiB)"
+BBBP,632,ifconfig,"        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"
+BBBP,633,ifconfig,""
+BBBP,634,ifconfig,"lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536"
+BBBP,635,ifconfig,"        inet 127.0.0.1  netmask 255.0.0.0"
+BBBP,636,ifconfig,"        inet6 ::1  prefixlen 128  scopeid 0x10<host>"
+BBBP,637,ifconfig,"        loop  txqueuelen 1000  (Local Loopback)"
+BBBP,638,ifconfig,"        RX packets 6  bytes 416 (416.0 B)"
+BBBP,639,ifconfig,"        RX errors 0  dropped 0  overruns 0  frame 0"
+BBBP,640,ifconfig,"        TX packets 6  bytes 416 (416.0 B)"
+BBBP,641,ifconfig,"        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"
+BBBP,642,ifconfig,""
+BBBP,643,/bin/df-m
+BBBP,644,/bin/df-m,"Filesystem     1M-blocks  Used Available Use% Mounted on"
+BBBP,645,/bin/df-m,"ddev/xvda1          8181  1465      6717  18% /"
+BBBP,646,/bin/df-m,"devtmpfs           61332     0     61332   0% /dev"
+BBBP,647,/bin/df-m,"tmpfs              61355     0     61355   0% /dev/shm"
+BBBP,648,/bin/df-m,"tmpfs              61355    17     61338   1% /run"
+BBBP,649,/bin/df-m,"tmpfs              61355     0     61355   0% /sys/fs/cgroup"
+BBBP,650,/bin/df-m,"tmpfs              12271     0     12271   0% /run/user/0"
+BBBP,651,/bin/df-m,"ddev/nvme1n1     1783413    77   1692721   1% /data1"
+BBBP,652,/bin/df-m,"tmpfs              12271     0     12271   0% /run/user/1001"
+BBBP,653,/bin/mount
+BBBP,654,/bin/mount,"sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime,seclabel)"
+BBBP,655,/bin/mount,"proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)"
+BBBP,656,/bin/mount,"devtmpfs on /dev type devtmpfs (rw,nosuid,seclabel,size=62803368k,nr_inodes=15700842,mode=755)"
+BBBP,657,/bin/mount,"securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)"
+BBBP,658,/bin/mount,"tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev,seclabel)"
+BBBP,659,/bin/mount,"devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,seclabel,gid=5,mode=620,ptmxmode=000)"
+BBBP,660,/bin/mount,"tmpfs on /run type tmpfs (rw,nosuid,nodev,seclabel,mode=755)"
+BBBP,661,/bin/mount,"tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,seclabel,mode=755)"
+BBBP,662,/bin/mount,"cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd)"
+BBBP,663,/bin/mount,"pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)"
+BBBP,664,/bin/mount,"cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,hugetlb)"
+BBBP,665,/bin/mount,"cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,cpuset)"
+BBBP,666,/bin/mount,"cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,cpuacct,cpu)"
+BBBP,667,/bin/mount,"cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,memory)"
+BBBP,668,/bin/mount,"cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,freezer)"
+BBBP,669,/bin/mount,"cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,net_prio,net_cls)"
+BBBP,670,/bin/mount,"cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,blkio)"
+BBBP,671,/bin/mount,"cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,perf_event)"
+BBBP,672,/bin/mount,"cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,pids)"
+BBBP,673,/bin/mount,"cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,seclabel,devices)"
+BBBP,674,/bin/mount,"configfs on /sys/kernel/config type configfs (rw,relatime)"
+BBBP,675,/bin/mount,"ddev/xvda1 on / type xfs (rw,relatime,seclabel,attr2,inode64,noquota)"
+BBBP,676,/bin/mount,"rpc_pipefs on /var/lib/nfs/rpc_pipefs type rpc_pipefs (rw,relatime)"
+BBBP,677,/bin/mount,"selinuxfs on /sys/fs/selinux type selinuxfs (rw,relatime)"
+BBBP,678,/bin/mount,"systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=28,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=34885)"
+BBBP,679,/bin/mount,"debugfs on /sys/kernel/debug type debugfs (rw,relatime)"
+BBBP,680,/bin/mount,"mqueue on /dev/mqueue type mqueue (rw,relatime,seclabel)"
+BBBP,681,/bin/mount,"hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,seclabel)"
+BBBP,682,/bin/mount,"binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)"
+BBBP,683,/bin/mount,"tmpfs on /run/user/0 type tmpfs (rw,nosuid,nodev,relatime,seclabel,size=12565316k,mode=700)"
+BBBP,684,/bin/mount,"ddev/nvme1n1 on /data1 type ext4 (rw,noatime,seclabel,nodelalloc,data=ordered)"
+BBBP,685,/bin/mount,"tmpfs on /run/user/1001 type tmpfs (rw,nosuid,nodev,relatime,seclabel,size=12565316k,mode=700,uid=1001,gid=1001)"
+BBBP,686,/etc/fstab
+BBBP,687,/etc/fstab,""
+BBBP,688,/etc/fstab,"#"
+BBBP,689,/etc/fstab,"# /etc/fstab"
+BBBP,690,/etc/fstab,"# Created by anaconda on Mon Jan 28 20:51:49 2019"
+BBBP,691,/etc/fstab,"#"
+BBBP,692,/etc/fstab,"# Accessible filesystems, by reference, are maintained under '/dev/disk'"
+BBBP,693,/etc/fstab,"# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info"
+BBBP,694,/etc/fstab,"#"
+BBBP,695,/etc/fstab,"UUID=f41e390f-835b-4223-a9bb-9b45984ddf8d /                       xfs     defaults        0 0"
+BBBP,696,netstat -r
+BBBP,697,netstat -r,"Kernel IP routing table"
+BBBP,698,netstat -r,"Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface"
+BBBP,699,netstat -r,"default         ip-10-8-0-1.us- 0.0.0.0         UG        0 0          0 ens3"
+BBBP,700,netstat -r,"10.8.0.0        0.0.0.0         255.255.255.0   U         0 0          0 ens3"
+BBBP,701,netstat -r,"link-local      0.0.0.0         255.255.0.0     U         0 0          0 ens3"
+BBBP,702,uptime
+BBBP,703,uptime," 03:07:15 up 6 min,  0 users,  load average: 0.05, 0.03, 0.03"
+BBBP,704,getconf PAGESIZE
+BBBP,705,getconf PAGESIZE,"4096"
+ZZZZ,T0001,03:07:16,26-MAY-2019
+CPU001,T0001,0.0,1.8,0.9,97.3,0.0
+CPU002,T0001,0.0,0.0,0.0,100.0,0.0
+CPU003,T0001,0.0,0.0,0.0,100.0,0.0
+CPU004,T0001,0.0,0.9,0.0,99.1,0.0
+CPU005,T0001,0.0,0.9,0.0,99.1,0.0
+CPU006,T0001,0.0,15.3,0.0,84.7,0.0
+CPU007,T0001,0.0,0.0,0.9,99.1,0.0
+CPU008,T0001,0.0,0.0,0.0,100.0,0.0
+CPU009,T0001,0.0,0.0,0.0,100.0,0.0
+CPU010,T0001,54.1,0.9,0.0,45.0,0.0
+CPU011,T0001,0.0,0.0,4.5,95.5,0.0
+CPU012,T0001,1.8,3.6,0.0,94.6,0.0
+CPU013,T0001,0.9,0.9,0.0,98.2,0.0
+CPU014,T0001,0.9,0.9,0.0,98.2,0.0
+CPU015,T0001,0.0,0.9,0.0,99.1,0.0
+CPU016,T0001,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0001,3.8,1.7,0.4,94.2,0.0,,16
+MEM,T0001,122708.1,-0.0,-0.0,0.0,121620.4,-0.0,-0.0,0.0,-0.0,146.0,82.1,-1.0,3.0,0.0,103.1
+VM,Paging and Virtual Memory,nr_dirty,nr_writeback,nr_unstable,nr_page_table_pages,nr_mapped,nr_slab,pgpgin,pgpgout,pswpin,pswpout,pgfree,pgactivate,pgdeactivate,pgfault,pgmajfault,pginodesteal,slabs_scanned,kswapd_steal,kswapd_inodesteal,pageoutrun,allocstall,pgrotated,pgalloc_high,pgalloc_normal,pgalloc_dma,pgrefill_high,pgrefill_normal,pgrefill_dma,pgsteal_high,pgsteal_normal,pgsteal_dma,pgscan_kswapd_high,pgscan_kswapd_normal,pgscan_kswapd_dma,pgscan_direct_high,pgscan_direct_normal,pgscan_direct_dma
+VM,T0001,28,0,0,754,5550,-1,1892,227350,0,0,10441,120,0,31261,11,0,0,0,0,0,0,0,0,10487,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0001,2,0,0.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0001,8.3,0.0,6.9,0.0
+NETPACKET,T0001,51.6,0.0,51.6,0.0
+JFSFILE,T0001,17.9,0.0,0.0,17.9
+DISKBUSY,T0001,1.8,2.7,0.0,0.0
+DISKREAD,T0001,1683.9,1683.9,0.0,0.0
+DISKWRITE,T0001,19.6,19.6,0.0,203237.0
+DISKXFER,T0001,32.9,32.9,0.0,1587.8
+DISKBSIZE,T0001,51.7,51.7,0.0,128.0
+ZZZZ,T0002,03:07:21,26-MAY-2019
+CPU001,T0002,0.0,0.0,0.0,100.0,0.0
+CPU002,T0002,0.0,0.0,0.0,100.0,0.0
+CPU003,T0002,0.0,0.2,0.0,99.8,0.0
+CPU004,T0002,0.0,0.0,0.0,100.0,0.0
+CPU005,T0002,0.0,0.0,0.0,100.0,0.0
+CPU006,T0002,0.0,0.0,0.0,100.0,0.0
+CPU007,T0002,0.0,0.0,0.0,100.0,0.0
+CPU008,T0002,0.0,0.0,0.0,100.0,0.0
+CPU009,T0002,0.0,0.0,0.0,100.0,0.0
+CPU010,T0002,100.0,0.0,0.0,0.0,0.0
+CPU011,T0002,0.0,0.4,7.0,92.6,0.0
+CPU012,T0002,0.0,0.0,0.0,100.0,0.0
+CPU013,T0002,0.0,0.0,0.0,100.0,0.0
+CPU014,T0002,0.0,0.0,0.0,100.0,0.0
+CPU015,T0002,0.0,0.0,0.0,100.0,0.0
+CPU016,T0002,0.0,0.0,0.0,100.0,0.0
+AAA,steal,1
+CPU_ALL,T0002,6.3,0.0,0.4,93.3,0.0,,16
+MEM,T0002,122708.1,-0.0,-0.0,0.0,121620.1,-0.0,-0.0,0.0,-0.0,146.1,82.5,-1.0,3.0,0.0,102.8
+VM,T0002,36,0,0,826,5593,-1,0,1030188,0,0,251,2,0,306,0,0,0,0,0,0,0,0,0,336,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0002,2,1,502.4,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,-1.0
+NET,T0002,0.0,0.0,0.0,0.0
+NETPACKET,T0002,0.2,0.0,0.2,0.0
+JFSFILE,T0002,17.9,0.0,0.0,17.9
+DISKBUSY,T0002,0.0,0.0,0.0,0.0
+DISKREAD,T0002,0.0,0.0,0.0,0.0
+DISKWRITE,T0002,0.0,0.0,0.0,204841.2
+DISKXFER,T0002,0.0,0.0,0.0,1600.7
+DISKBSIZE,T0002,0.0,0.0,0.0,128.0
+TOP,0018595,T0002,99.72,99.72,0.00,94524,3760,160,3920,2696,9,0,sysbench,2,0
+UARG,+Time,PID,ProgName,FullCommand
+UARG,T0002,0018595,sysbench,sysbench cpu --cpu-max-prime=200000 --time=30 run
+TOP,0018464,T0002,0.60,0.60,0.00,0,0,0,0,0,0,0,ext4lazyinit,1,40
+UARG,T0002,0018464,ext4lazyinit,[ext4lazyinit]
+TOP,0018520,T0002,0.20,0.00,0.20,16264,1168,152,2524,660,43,0,nmon,1,0
+UARG,T0002,0018520,nmon,/home/tidb/bin/nmon -F /home/tidb/nmon/20190526030715_cpu_ip-10-8-0-107.us-east-2.compute.internal.nmon -T -s 5 -c 6
+ZZZZ,T0003,03:07:26,26-MAY-2019
+CPU001,T0003,0.0,0.0,0.0,100.0,0.0
+CPU002,T0003,0.0,0.0,0.0,100.0,0.0
+CPU003,T0003,0.0,0.0,0.0,100.0,0.0
+CPU004,T0003,0.0,0.0,0.0,100.0,0.0
+CPU005,T0003,0.0,0.0,0.0,100.0,0.0
+CPU006,T0003,0.0,0.0,0.0,100.0,0.0
+CPU007,T0003,0.0,0.2,0.0,99.8,0.0
+CPU008,T0003,0.0,0.0,0.0,100.0,0.0
+CPU009,T0003,0.0,0.0,0.0,100.0,0.0
+CPU010,T0003,100.0,0.0,0.0,0.0,0.0
+CPU011,T0003,0.0,0.0,7.8,92.2,0.0
+CPU012,T0003,0.0,0.0,0.0,100.0,0.0
+CPU013,T0003,0.2,0.0,0.0,99.8,0.0
+CPU014,T0003,0.0,0.0,0.0,100.0,0.0
+CPU015,T0003,0.0,0.4,0.0,99.6,0.0
+CPU016,T0003,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0003,6.3,0.0,0.5,93.2,0.0,,16
+MEM,T0003,122708.1,-0.0,-0.0,0.0,121620.2,-0.0,-0.0,0.0,-0.0,146.1,82.9,-1.0,3.0,0.0,102.8
+VM,T0003,45,0,0,826,5593,-1,0,1032236,0,0,1224,31,0,3275,0,0,0,0,0,0,0,0,0,1285,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0003,2,0,502.1,-1.0,-1.0,-1.0,2.2,-1.0,-1.0,-1.0
+NET,T0003,0.0,0.0,0.0,0.0
+NETPACKET,T0003,0.0,0.0,0.0,0.0
+JFSFILE,T0003,17.9,0.0,0.0,17.9
+DISKBUSY,T0003,0.0,0.0,0.0,0.2
+DISKREAD,T0003,0.0,0.0,0.0,0.0
+DISKWRITE,T0003,0.0,0.0,0.0,204596.3
+DISKXFER,T0003,0.0,0.0,0.0,1598.7
+DISKBSIZE,T0003,0.0,0.0,0.0,128.0
+TOP,0018595,T0003,100.09,100.09,0.00,94524,4020,160,3920,2708,5,0,sysbench,2,0
+TOP,0018464,T0003,0.59,0.59,0.00,0,0,0,0,0,0,0,ext4lazyinit,1,40
+ZZZZ,T0004,03:07:31,26-MAY-2019
+CPU001,T0004,0.2,0.2,0.0,99.6,0.0
+CPU002,T0004,0.0,0.0,0.0,100.0,0.0
+CPU003,T0004,0.2,0.0,0.0,99.8,0.0
+CPU004,T0004,0.0,0.0,0.0,100.0,0.0
+CPU005,T0004,0.0,0.2,0.0,99.8,0.0
+CPU006,T0004,0.2,3.2,0.0,96.6,0.0
+CPU007,T0004,0.2,0.0,0.0,99.8,0.0
+CPU008,T0004,0.0,0.2,0.0,99.8,0.0
+CPU009,T0004,0.2,0.6,0.0,99.2,0.0
+CPU010,T0004,100.0,0.0,0.0,0.0,0.0
+CPU011,T0004,0.0,0.2,6.8,93.0,0.0
+CPU012,T0004,0.2,0.0,0.0,99.8,0.0
+CPU013,T0004,0.0,0.2,0.0,99.8,0.0
+CPU014,T0004,0.2,0.0,0.0,99.8,0.0
+CPU015,T0004,0.0,0.2,0.0,99.8,0.0
+CPU016,T0004,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0004,6.3,0.3,0.4,92.9,0.0,,16
+MEM,T0004,122708.1,-0.0,-0.0,0.0,121615.1,-0.0,-0.0,0.0,-0.0,146.6,86.4,-1.0,3.0,0.0,103.2
+VM,T0004,57,0,0,1014,6074,-1,560,1024098,0,0,2924,20,0,9620,4,0,0,0,0,0,0,0,0,4067,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0004,2,0,669.1,-1.0,-1.0,-1.0,5.2,-1.0,-1.0,-1.0
+NET,T0004,1.5,0.0,3.4,0.0
+NETPACKET,T0004,9.8,0.0,9.2,0.0
+JFSFILE,T0004,17.9,0.0,0.0,17.9
+DISKBUSY,T0004,0.2,0.2,0.0,0.0
+DISKREAD,T0004,111.8,111.8,0.0,0.0
+DISKWRITE,T0004,10.8,10.8,0.0,204893.2
+DISKXFER,T0004,5.6,5.6,0.0,1601.1
+DISKBSIZE,T0004,21.9,21.9,0.0,128.0
+TOP,0018595,T0004,99.84,99.84,0.00,94524,4020,160,3920,2708,4,0,sysbench,2,0
+TOP,0018464,T0004,0.60,0.60,0.00,0,0,0,0,0,0,0,ext4lazyinit,1,40
+TOP,0018520,T0004,0.40,0.20,0.20,16264,1188,152,2524,672,42,0,nmon,1,0
+TOP,0000001,T0004,0.20,0.00,0.20,194128,7192,1412,150428,4128,4,0,systemd,1,0
+UARG,T0004,0000001,systemd,/usr/lib/systemd/systemd --switched-root --system --deserialize 21
+TOP,0004482,T0004,0.20,0.00,0.20,39084,5980,324,360,5656,4,0,systemd-journal,1,0
+UARG,T0004,0004482,systemd-journal,/usr/lib/systemd/systemd-journald
+TOP,0009292,T0004,0.20,0.00,0.20,224600,3864,596,148740,2988,0,0,rsyslogd,3,0
+UARG,T0004,0009292,rsyslogd,/usr/sbin/rsyslogd -n
+ZZZZ,T0005,03:07:36,26-MAY-2019
+CPU001,T0005,0.0,0.0,0.0,100.0,0.0
+CPU002,T0005,0.0,0.0,0.0,100.0,0.0
+CPU003,T0005,0.0,0.0,0.0,100.0,0.0
+CPU004,T0005,0.0,0.0,0.0,100.0,0.0
+CPU005,T0005,0.0,0.0,0.0,100.0,0.0
+CPU006,T0005,0.0,0.0,0.0,100.0,0.0
+CPU007,T0005,0.0,0.0,0.0,100.0,0.0
+CPU008,T0005,0.0,0.0,0.0,100.0,0.0
+CPU009,T0005,0.2,0.2,0.0,99.6,0.0
+CPU010,T0005,100.0,0.0,0.0,0.0,0.0
+CPU011,T0005,0.2,0.2,7.7,91.7,0.2
+CPU012,T0005,0.0,0.0,0.0,100.0,0.0
+CPU013,T0005,0.0,0.0,0.0,100.0,0.0
+CPU014,T0005,0.0,0.0,0.0,100.0,0.0
+CPU015,T0005,0.2,0.4,0.0,99.4,0.0
+CPU016,T0005,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0005,6.3,0.0,0.5,93.2,0.0,,16
+MEM,T0005,122708.1,-0.0,-0.0,0.0,121615.6,-0.0,-0.0,0.0,-0.0,146.6,86.5,-1.0,3.0,0.0,103.2
+VM,T0005,64,0,0,1014,6079,-1,0,1034280,0,0,1247,3,0,3274,0,0,0,0,0,0,0,0,0,1279,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0005,2,0,526.9,-1.0,-1.0,-1.0,2.2,-1.0,-1.0,-1.0
+NET,T0005,0.1,0.0,1.7,0.0
+NETPACKET,T0005,1.8,0.0,1.6,0.0
+JFSFILE,T0005,17.9,0.0,0.0,17.9
+DISKBUSY,T0005,0.0,0.0,0.0,0.0
+DISKREAD,T0005,0.0,0.0,0.0,0.0
+DISKWRITE,T0005,0.0,0.0,0.0,204634.1
+DISKXFER,T0005,0.0,0.0,0.0,1599.0
+DISKBSIZE,T0005,0.0,0.0,0.0,128.0
+TOP,0018595,T0005,100.11,100.11,0.00,94524,4020,160,3920,2708,2,0,sysbench,2,0
+TOP,0018464,T0005,0.59,0.59,0.00,0,0,0,0,0,0,0,ext4lazyinit,1,41
+TOP,0000001,T0005,0.20,0.20,0.00,194128,7192,1412,150428,4128,0,0,systemd,1,0
+ZZZZ,T0006,03:07:41,26-MAY-2019
+CPU001,T0006,0.0,0.0,0.0,100.0,0.0
+CPU002,T0006,0.0,0.0,0.0,100.0,0.0
+CPU003,T0006,0.0,0.0,0.0,100.0,0.0
+CPU004,T0006,0.0,0.0,0.0,100.0,0.0
+CPU005,T0006,0.0,0.0,0.0,100.0,0.0
+CPU006,T0006,0.0,0.0,0.0,100.0,0.0
+CPU007,T0006,0.0,0.0,0.0,100.0,0.0
+CPU008,T0006,0.0,0.0,0.0,100.0,0.0
+CPU009,T0006,0.2,0.0,0.0,99.8,0.0
+CPU010,T0006,100.0,0.0,0.0,0.0,0.0
+CPU011,T0006,0.0,0.0,7.6,92.4,0.0
+CPU012,T0006,0.0,0.0,0.0,100.0,0.0
+CPU013,T0006,0.0,0.0,0.0,100.0,0.0
+CPU014,T0006,0.0,0.0,0.0,100.0,0.0
+CPU015,T0006,0.0,0.0,0.0,100.0,0.0
+CPU016,T0006,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0006,6.3,0.0,0.5,93.2,0.0,,16
+MEM,T0006,122708.1,-0.0,-0.0,0.0,121615.5,-0.0,-0.0,0.0,-0.0,146.7,86.6,-1.0,3.0,0.0,103.2
+VM,T0006,73,0,0,1014,6079,-1,0,1024044,0,0,257,9,0,251,0,0,0,0,0,0,0,0,0,264,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0006,2,0,503.7,-1.0,-1.0,-1.0,0.8,-1.0,-1.0,-1.0
+NET,T0006,0.0,0.0,0.2,0.0
+NETPACKET,T0006,0.6,0.0,0.6,0.0
+JFSFILE,T0006,17.9,0.0,0.0,17.9
+DISKBUSY,T0006,0.0,0.0,0.0,0.2
+DISKREAD,T0006,0.0,0.0,0.0,0.0
+DISKWRITE,T0006,0.0,0.0,0.0,204517.9
+DISKXFER,T0006,0.0,0.0,0.0,1598.1
+DISKBSIZE,T0006,0.0,0.0,0.0,128.0
+TOP,0018595,T0006,99.86,99.86,0.00,94524,4020,160,3920,2708,0,0,sysbench,2,0
+TOP,0018464,T0006,0.60,0.60,0.00,0,0,0,0,0,0,0,ext4lazyinit,1,40
+TOP,0018639,T0006,0.40,0.20,0.20,123328,3016,148,1660,1520,2,0,htop,1,0
+UARG,T0006,0018639,htop,htop
+TOP,0018520,T0006,0.20,0.00,0.20,16264,1196,152,2524,672,43,0,nmon,1,0

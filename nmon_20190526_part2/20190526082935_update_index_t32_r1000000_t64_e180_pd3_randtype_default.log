@@ -1,0 +1,17 @@
+sysbench 1.0.17 (using system LuaJIT 2.0.4)
+
+Running the test with following options:
+Number of threads: 64
+Report intermediate results every 10 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 10s ] thds: 64 tps: 6392.23 qps: 6392.23 (r/w/o: 0.00/4461.14/1931.09) lat (ms,95%): 23.10 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 64 tps: 6327.24 qps: 6327.24 (r/w/o: 0.00/4413.33/1913.91) lat (ms,95%): 24.83 err/s: 0.00 reconn/s: 0.00
+FATAL: mysql_stmt_execute() returned error 9004 (Resolve lock timeout) for query 'UPDATE sbtest4 SET k=k+1 WHERE id=?'
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 9004, state = 'HY000': Resolve lock timeout
+Error in my_thread_global_end(): 1 threads didn't exit
